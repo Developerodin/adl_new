@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>ChargeSol</title>
+    <title>AjayDiam</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -50,40 +50,32 @@
 
     <header id="header" class="header d-flex align-items-center addclass nav-down">
 
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/logo2.png" style="max-width:250px;" alt="">
-                <!-- <h1>ChargeSol<span>.</span></h1>  -->
+        <div class="container-fluid container-xl d-flex align-items-center  row"
+            style="max-width: 100%;margin: auto;">
+            <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center col-md-4 justify-content-center">
+                <!-- 
+                <img src="assets/img/logo2.png" style="max-width:250px;" alt=""> -->
+                <h1 style="text-align: center;">AjayDiam<span>.</span></h1>
             </a>
-            <nav id="navbar" class="navbar">
-                <ul>
+            <nav id="navbar" class="navbar col-md-6 ">
+
+
+                <ul style="width: 100%;     justify-content: space-around;">
                     <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                    <li class="dropdown"><a href="#">Solutions <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li><a href="<?php echo base_url(); ?>">About</a></li>
+                    <li class="dropdown"><a href="#">Services <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="<?php echo base_url('Cpo'); ?>">ChargeSol for CPOs</a></li>
-                            <li><a href="<?php echo base_url('OEMs'); ?>">ChargeSol OEMs</a></li>
+                            <li><a href="<?php echo base_url('Cpo'); ?>">Finance</a></li>
+                            <li><a href="<?php echo base_url('OEMs'); ?>">Investment</a></li>
 
-                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">ChargeSol for Fleet Operators</a>
+                            <li><a href="<?php echo base_url('Fleet_Operators'); ?>">Development</a>
                             </li>
-                            <li><a href="<?php echo base_url('Other'); ?>">Other Businesses</a></li>
 
                         </ul>
                     </li>
-
-                    <li class="dropdown"><a href="#"><span>Company</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-
-                            <li><a href="<?php echo base_url('About_Us'); ?>"><span>About Us</span> </a>
-                            </li>
-
-                            <li><a href="<?php echo base_url('Career'); ?>">Career</a></li>
-
-
-                        </ul>
-                    </li>
+                    <li><a href="<?php echo base_url(); ?>">News</a></li>
                     <li><a href="<?php echo base_url('Contact1'); ?>">Contact</a></li>
+                    
                 </ul>
             </nav><!-- .navbar -->
 

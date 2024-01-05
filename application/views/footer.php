@@ -1,74 +1,74 @@
 <style>
-@media (max-width: 767px) {
-    .mt-2 {
-        text-align: center;
+    @media (max-width: 767px) {
+        .mt-2 {
+            text-align: center;
+        }
+
+        .tc {
+            text-align: center;
+        }
     }
 
-    .tc {
-        text-align: center;
+    .social_icon {
+        font-size: 25px;
+        color: #f26522 !important;
+        display: none;
     }
-}
 
-.social_icon {
-    font-size: 25px;
-    color: #f26522 !important;
-    display: none;
-}
+    hr {
+        border-top: 2px solid;
+        opacity: 1;
+    }
 
-hr {
-    border-top: 2px solid;
-    opacity: 1;
-}
+    .formPopup {
+        background: rgba(0, 0, 0, 0.7);
 
-.formPopup {
-    background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, 5%);
+        border: 3px solid #999999;
+        z-index: 4;
 
-    width: 100%;
-    height: 100vh;
-    display: none;
-    position: fixed;
-    left: 50%;
-    top: 0%;
-    transform: translate(-50%, 5%);
-    border: 3px solid #999999;
-    z-index: 4;
+    }
 
-}
-
-.formContainer {
-    max-width: 700px;
-    padding: 20px;
-    background-color: #f26522;
-}
+    .formContainer {
+        max-width: 700px;
+        padding: 20px;
+        background-color: #f26522;
+    }
 
 
 
-.formContainer input[type=text]:focus,
-.formContainer input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
+    .formContainer input[type=text]:focus,
+    .formContainer input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
 
-.formContainer .btn {
-    padding: 12px 20px;
-    border: none;
+    .formContainer .btn {
+        padding: 12px 20px;
+        border: none;
 
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 15px;
-    opacity: 0.8;
-}
+        color: #fff;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 15px;
+        opacity: 0.8;
+    }
 
-.formContainer .cancel {
+    .formContainer .cancel {
 
-    width: 50px;
-}
+        width: 50px;
+    }
 
-.formContainer .btn:hover,
-.openButton:hover {
-    opacity: 1;
-}
+    .formContainer .btn:hover,
+    .openButton:hover {
+        opacity: 1;
+    }
 </style>
 
 <div class="loginPopup">
@@ -187,10 +187,58 @@ hr {
 <footer class="footer-no-negative wf-section">
     <div>
         <div class="container">
+            <div class=" row ">
+                <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
+                    <div class="footer-title" style="font-size: 22px;">Subscribe to our newsletter</div>
+                    <div class="subs-subtitle">Stay up to date with the latest ChargeSol news</div>
+                </div>
+                <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
+                    <div class="form-block w-form" style="width:100%;">
+                        <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
+
+                            <input type="email" style="width:60%;" class="text-field w-input" maxlength="256"
+                                name="email" placeholder="Enter your email address" required="">
+
+                            <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger"
+                                style="width:30%">
+                        </form>
+
+
+
+                        <div class="success-message-2 w-form-done" tabindex="-1" role="region"
+                            aria-label="Newsletter-footer success">
+                            <div>Thank you!</div>
+                        </div>
+
+                        <div class="w-form-fail" tabindex="-1" role="region" aria-label="Newsletter-footer failure">
+                            <div>Oops! Something went wrong while submitting the form.</div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div  class="tc col-md-12 col-sm-12 mt-3 mb-3" >
+            <a href="https://www.linkedin.com/" class="social-footer w-inline-block">
+            <div class="social_icon"><i class="bi bi-linkedin"></i></div>
+            </a>
+            <a href="" class="social-footer ml-32 w-inline-block">
+              <div class="social_icon"><i class="bi bi-instagram"></i></div>
+            
+            </a>
+            <a href="" class="social-footer ml-32 w-inline-block">
+            <div class="social_icon"><i class="bi bi-facebook"></i></div>
+            </a>
+            <a href="https://www.youtube.com/" class="social-footer ml-32 w-inline-block">
+              <div class="social_icon"><i class="bi bi-youtube"></i></div>
+            </a>
+          </div> -->
+            </div>
+        
+        <hr>
+        
             <div class="  footer-row-1 row tc" style="    justify-content: space-around;">
                 <div class="col-lg-3 col-md-12 col-sm-12  mb-3"><a href="/" aria-current="page"
                         class="w-inline-block w--current">
-                        <img src="assets/img/logo2.png" alt="" style="width:100%;">
+                        <!-- <img src="assets/img/logo2.png" alt="" style="width:100%;"> -->
+                        <h3 style="color:#fff;">AjayDiam</h3>
                     </a>
                 </div>
                 <div class="div-block-24 row col-lg-9 col-md-12 col-sm-12 mt-3 mb-3">
@@ -230,67 +278,20 @@ hr {
                             <a href="<?php echo base_url('News'); ?>" class="footer-links mt-25">News & Articles</a>
                             <a onclick="openForm()" style="cursor:pointer" class="footer-links mt-16">Invest with Us</a>
                             <a onclick="openForm1()" style="cursor:pointer" class="footer-links mt-16">Consultation</a>
-                            <a href="<?php echo base_url('Contact1'); ?>"
-                                class="footer-links mt-16">Contact</a>
+                            <a href="<?php echo base_url('Contact1'); ?>" class="footer-links mt-16">Contact</a>
 
 
                         </div>
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="container">
-                <div class=" row ">
-                    <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
-                        <div class="footer-title" style="font-size: 22px;">Subscribe to our newsletter</div>
-                        <div class="subs-subtitle">Stay up to date with the latest ChargeSol news</div>
-                    </div>
-                    <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
-                        <div class="form-block w-form" style="width:100%;">
-                            <form action="Sub_mail" method="post" class="footer-form d-flex"
-                                style="align-items: center;">
-
-                                <input type="email" style="width:60%;" class="text-field w-input" maxlength="256"
-                                    name="email" placeholder="Enter your email address" required="">
-
-                                <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger"
-                                    style="width:30%">
-                            </form>
 
 
-
-                            <div class="success-message-2 w-form-done" tabindex="-1" role="region"
-                                aria-label="Newsletter-footer success">
-                                <div>Thank you!</div>
-                            </div>
-
-                            <div class="w-form-fail" tabindex="-1" role="region" aria-label="Newsletter-footer failure">
-                                <div>Oops! Something went wrong while submitting the form.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div  class="tc col-md-12 col-sm-12 mt-3 mb-3" >
-            <a href="https://www.linkedin.com/" class="social-footer w-inline-block">
-            <div class="social_icon"><i class="bi bi-linkedin"></i></div>
-            </a>
-            <a href="" class="social-footer ml-32 w-inline-block">
-              <div class="social_icon"><i class="bi bi-instagram"></i></div>
-            
-            </a>
-            <a href="" class="social-footer ml-32 w-inline-block">
-            <div class="social_icon"><i class="bi bi-facebook"></i></div>
-            </a>
-            <a href="https://www.youtube.com/" class="social-footer ml-32 w-inline-block">
-              <div class="social_icon"><i class="bi bi-youtube"></i></div>
-            </a>
-          </div> -->
-                </div>
-            </div>
             <hr>
             <div class="footer-row-3 tc" style="    text-align: center;">
                 <div class="footer-copyw tc">
                     © <span class="current-year">2023</span>. All Rights Reserved &nbsp; &nbsp;・ &nbsp; &nbsp;
-                    <span class="_445254">ChargeSol</span>
+                    <span class="_445254">AjayDiam</span>
                     &nbsp; | &nbsp; <a href="/" class="_445254">Privacy Policy</a>
                 </div>
             </div>
@@ -304,30 +305,30 @@ hr {
 
 <!-- Vendor JS Files -->
 <script>
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll <= 500) {
-        $(".addclass").removeClass("addclass").addClass("stick");
-    }
-})
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll <= 500) {
+            $(".addclass").removeClass("addclass").addClass("stick");
+        }
+    })
 </script>
 
 <script>
-function openForm() {
-    document.getElementById("popupForm").style.display = "block";
-}
+    function openForm() {
+        document.getElementById("popupForm").style.display = "block";
+    }
 
-function closeForm() {
-    document.getElementById("popupForm").style.display = "none";
-}
+    function closeForm() {
+        document.getElementById("popupForm").style.display = "none";
+    }
 
-function openForm1() {
-    document.getElementById("popupForm1").style.display = "block";
-}
+    function openForm1() {
+        document.getElementById("popupForm1").style.display = "block";
+    }
 
-function closeForm1() {
-    document.getElementById("popupForm1").style.display = "none";
-}
+    function closeForm1() {
+        document.getElementById("popupForm1").style.display = "none";
+    }
 </script>
 
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

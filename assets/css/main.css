@@ -21,8 +21,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #f26522;
-  --color-secondary: #f26522;
+  --color-primary: #00243a;
+  --color-secondary: #00243a;
 
   --color-white: hsl(0, 0%, 100%);
 }

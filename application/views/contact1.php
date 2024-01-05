@@ -1,46 +1,115 @@
-<div class="section wf-section mt-5 mb-5" style="min-height:100vh;">
-    <div>
-        <div class="container ">
-            <div class="row justify-content-between items-center">
-                <div class="col-md-12 text-center">
-                    <h1 class="mb-3">
-                        Contact ChargeSol
-                    </h1>
-                    <h4 class="text-center">
-                        The best ways to<br> get in touch with<br> us
-                    </h4>
-                </div>
+<style>
+  .mainb {
+    background-image: url(assets/img/ab.jpg);
+    background-position: 50% 235%;
+    background-size: cover;
+    height: 50vh;
+  }
+
+  .section-title-w {
+    padding-bottom: 40px;
+    margin-top: 30vh;
+  }
+
+  .section-title-w h2 {
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .section-title-w p {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+</style>
+
+
+
+
+<main id="main">
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title" data-aos="zoom-out">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div>
+
+      <div class="row mt-5">
+
+        <div class="col-lg-4" data-aos="fade-right">
+          <div class="info">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>407, 408, 409, 99 Shopping,
+                Opp. Bhagunagar, Sayan Road,
+                Amroli, Surat – 394107. Gujarat</p>
             </div>
-            <div class="row justify-content-center items-center  mb-5" style="padding-top:60px;">
-                <div class="col-md-6 text-center pd-top">
-                    <div class="container wh-mob" style="background-color:#fea629;rotate:
-                        -45deg;width:200px;height:200px;justify-content:
-                        center;display: flex;align-items: center;">
-                        <p class="text-center" style="rotate: 45deg;">
-                            For partner enquiries<br> write to us at - <br>
-                            team@ChargeSol.in
-                        </p>
-                    </div>
 
-                </div>
-                <div class="col-md-6 text-center pd-top d-none">
-                    <div class="container wh-mob" style="background-color:#fea629;rotate:
-                        -45deg;width:200px;height:200px;justify-content:
-                        center;display: flex;align-items: center">
-                        <p class="text-center" style="rotate: 45deg;">
-                            For any other<br> enquiries please fill<br> in the
-                            below form: <br><a href="https://forms.gle/QZFFjeGdMUU3RwaJ7" style="font-weight:
-                                800;color:black;">Link</a>
-
-                        </p>
-                    </div>
-
-                </div>
-
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p> 3dn@3desirenetworks.com
+</p>
             </div>
+
+            <div class="phone">
+              <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>+ 91046 18680, <br>
+              +91 9265221161</p>
+            </div>
+
+          </div>
 
         </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+          <form action="Contact/form" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+
+        </div>
+
+      </div>
+
     </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
-    integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+  </section><!-- End Contact Section -->
+
+
+ <!-- ======= F.A.Q Section ======= -->
+
+
+
+
+
+</main><!-- End #main -->
