@@ -48,7 +48,7 @@
     <!-- ======= Header ======= -->
     <!-- End Top Bar -->
 
-    <header id="header" class="header d-flex align-items-center addclass nav-down">
+    <header id="header" class="header d-flex align-items-center addclass nav-down" style="   width:100%;">
 
         <div class="container-fluid container-xl d-flex align-items-center  row"
             style="max-width: 100%;margin: auto;">

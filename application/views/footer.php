@@ -290,7 +290,7 @@
             <hr>
             <div class="footer-row-3 tc" style="    text-align: center;">
                 <div class="footer-copyw tc">
-                    © <span class="current-year">2023</span>. All Rights Reserved &nbsp; &nbsp;・ &nbsp; &nbsp;
+                    © <span class="current-year">2024</span>. All Rights Reserved &nbsp; &nbsp;・ &nbsp; &nbsp;
                     <span class="_445254">AjayDiam</span>
                     &nbsp; | &nbsp; <a href="/" class="_445254">Privacy Policy</a>
                 </div>
