@@ -244,17 +244,15 @@
                 <div class="div-block-24 row col-lg-9 col-md-12 col-sm-12 mt-3 mb-3">
                     <div class="col-lg-4 col-md-6 col-sm-6  mt-2  tc">
                         <div class="div-block-1463">
-                            <div class="footer-title">Solutions</div>
+                            <div class="footer-title">Services</div>
                         </div>
                         <div class="col-footer">
-                            <a href="<?php echo base_url('Cpo'); ?>" class="footer-links mt-25">ChargeSol for CPOs</a>
-                            <a href="<?php echo base_url('OEMs'); ?>" class="footer-links mt-16">ChargeSol for
-                                OEMs</a>
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-25">Finance</a>
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">ACCOUNTING</a>
 
                             <a href="<?php echo base_url('Fleet_Operators'); ?>"
-                                class="footer-links mt-16 hide">ChargeSol for Fleet Operators</a>
-                            <a href="<?php echo base_url('Other'); ?>" class="footer-links mt-16 hide">Other
-                                Businesses</a>
+                                class="footer-links mt-16 hide">DEVELOPMENT</a>
+                           
 
                         </div>
                     </div>
@@ -275,9 +273,8 @@
                             <div class="footer-title">Other</div>
                         </div>
                         <div class="col-footer">
-                            <a href="<?php echo base_url('News'); ?>" class="footer-links mt-25">News & Articles</a>
-                            <a onclick="openForm()" style="cursor:pointer" class="footer-links mt-16">Invest with Us</a>
-                            <a onclick="openForm1()" style="cursor:pointer" class="footer-links mt-16">Consultation</a>
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-25">News & Articles</a>
+                            
                             <a href="<?php echo base_url('Contact1'); ?>" class="footer-links mt-16">Contact</a>
 
 

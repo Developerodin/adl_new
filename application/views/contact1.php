@@ -39,34 +39,34 @@
     <div class="container">
 
       <div class="section-title" data-aos="zoom-out">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
+        <h2 class="text-center">Contact Us</h2>
+        
       </div>
 
       <div class="row mt-5">
 
         <div class="col-lg-4" data-aos="fade-right">
           <div class="info">
-            <div class="address">
-              <i class="bi bi-geo-alt"></i>
-              <h4>Location:</h4>
-              <p>407, 408, 409, 99 Shopping,
+            <div class="address row" style="align-items: center;">
+              
+              <h6 class="col-md-4" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i> &nbsp;</span>Location:</h6>
+              <p class="col-md-8">407, 408, 409, 99 Shopping,
                 Opp. Bhagunagar, Sayan Road,
                 Amroli, Surat – 394107. Gujarat</p>
             </div>
 
-            <div class="email">
-              <i class="bi bi-envelope"></i>
-              <h4>Email:</h4>
-              <p> 3dn@3desirenetworks.com
-</p>
+            <div class="email row"style="align-items: center;">
+              
+              <h6 class="col-md-4"style="font-weight: 700;"><span><i class="bi bi-envelope"></i> &nbsp;</span>Email:</h6>
+              <p class="col-md-8"> 3dn@3desirenetworks.com
+              </p>
             </div>
 
-            <div class="phone">
-              <i class="bi bi-phone"></i>
-              <h4>Call:</h4>
-              <p>+ 91046 18680, <br>
-              +91 9265221161</p>
+            <div class="phone row"style="align-items: center;">
+              
+              <h6 class="col-md-4"style="font-weight: 700;"><span><i class="bi bi-phone"></i> &nbsp;</span>Call:</h6>
+              <p class="col-md-8">+ 91046 18680, <br>
+                +91 9265221161</p>
             </div>
 
           </div>
@@ -106,7 +106,7 @@
   </section><!-- End Contact Section -->
 
 
- <!-- ======= F.A.Q Section ======= -->
+  <!-- ======= F.A.Q Section ======= -->
 
 
 

@@ -118,9 +118,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12  pb-md-5 ">
-                <h3 class="text-center" style="font-weight: 600;">
+                <h2 class="text-center" style="font-weight: 600;">
                     Leadership and Advisory Board
-                </h3>
+                </h2>
             </div>
             <div class="col-md-4  mt-4">
                 <img src="" alt="" width="100%">
