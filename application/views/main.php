@@ -75,7 +75,7 @@
 
 
     <div class="row mt-md-5 mt-3 pb-md-5 pb-3">
-      <div class="col-md-12">
+      <div class="col-md-12 mt-md-3">
         <h2 class="text-center" style="width: 100%;">Why Choose ADLedger Outsourcing?</h2>
         <p class="text-center mt-3" style="width: 100%;">ADLedger provides trusted Outsourcing Services for bookkeeping,
           payroll, and tax preparation.</p>
@@ -116,7 +116,11 @@
         <h6>+12 Years Of Experience</h6>
         <h3 class="mt-4" style="font-weight: 600;">
           ADLedger offers comprehensive services in bookkeeping, payroll, and tax preparation</h3>
-        <p class="mt-4">ADLedger is a finance and accounting-focused company, specializing in providing comprehensive services for CPA firms and businesses of various sizes. Our expertise lies in delivering top-notch financial and accounting solutions, supported by the latest technologies. We understand the significance of even routine financial and accounting tasks, and our commitment is to enhance the overall business performance of our clients through our dedicated services.</p>
+        <p class="mt-4">ADLedger is a finance and accounting-focused company, specializing in providing comprehensive
+          services for CPA firms and businesses of various sizes. Our expertise lies in delivering top-notch financial
+          and accounting solutions, supported by the latest technologies. We understand the significance of even routine
+          financial and accounting tasks, and our commitment is to enhance the overall business performance of our
+          clients through our dedicated services.</p>
       </div>
 
       <div class="col-md-7 row" style="    align-items: center;">
@@ -143,16 +147,45 @@
 
   </div>
 </section>
-<section class="container">
+<section class="container ">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12 mt-md-3">
+      <h2 class="text-center" style="width: 100%;">Bolgs</h2>
+      <p class="text-center mt-3" style="width: 100%;">ADLedger provides trusted Outsourcing Services for bookkeeping,
+        payroll, and tax preparation.</p>
+    </div>
+    <div class="col-md-4 p-md-4">
       <img src="assets/img/blog1.png" alt="" width="100%">
-    
-      <h6 class="mt-3" style="font-weight: 600;">Director &nbsp;-&nbsp;<span style="font-weight:200;font-size:small;">13-01-2024</span></h6>
-      <h3>QUICKBOOKS SUPPPORT</h3>
-      <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim necessitatibus aut commodi sequi ....
+
+      <h6 class="mt-3" style="font-weight: 600;">Director &nbsp;-&nbsp;<span
+          style="font-weight:200;font-size:small;">13-01-2024</span></h6>
+      <h4 style="font-weight: 600;">QUICKBOOKS SUPPPORT</h4>
+      <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim necessitatibus aut commodi
+        sequi ....
       </p>
-    
+      <button class="btn btn-success" style="padding: 10px 20px;">Read more...</button>
+    </div>
+    <div class="col-md-4 p-md-4">
+      <img src="assets/img/blog1.png" alt="" width="100%">
+
+      <h6 class="mt-3" style="font-weight: 600;">Director &nbsp;-&nbsp;<span
+          style="font-weight:200;font-size:small;">13-01-2024</span></h6>
+      <h4 class="mt-3" style="font-weight: 600;">QUICKBOOKS SUPPPORT</h4>
+      <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim necessitatibus aut commodi
+        sequi ....
+      </p>
+      <button class="btn btn-success" style="padding: 10px 20px;">Read more...</button>
+    </div>
+    <div class="col-md-4 p-md-4">
+      <img src="assets/img/blog1.png" alt="" width="100%">
+
+      <h6 class="mt-3" style="font-weight: 600;">Director &nbsp;-&nbsp;<span
+          style="font-weight:200;font-size:small;">13-01-2024</span></h6>
+      <h4 style="font-weight: 600;">QUICKBOOKS SUPPPORT</h4>
+      <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim necessitatibus aut commodi
+        sequi ....
+      </p>
+      <button class="btn btn-success" style="padding: 10px 20px;">Read more...</button>
     </div>
   </div>
 </section>

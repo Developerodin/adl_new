@@ -14,159 +14,157 @@
     }
 </style>
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
-<div class="section-29 wf-section">
-    <div>
-        <div class=" mob-full">
-            <div class="div-block-114">
-                <img src="<?php echo base_url(); ?>assets/img/about_banner.jpg" width="100%" alt="">
+
+
+<div class=" mob-full">
+    <div class="div-block-114">
+        <img src="<?php echo base_url(); ?>assets/img/abb.JPG" width="100%" alt="">
+    </div>
+</div>
+<style>
+    .card {
+        min-height: 150px;
+    }
+
+    .progress-xs {
+        height: 10px;
+    }
+
+    .progress-label {
+        padding-bottom: 15px;
+    }
+</style>
+<section style="background-color: gainsboro;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-5">
+                <div class="card text-start">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Value</h4>
+                        <p class="card-text mt-3">Integrity, Accuracy, Client-Centric Approach, Continuous Improvement.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 p-5">
+                <div class="card text-start">
+
+                    <div class="card-body">
+                        <h4 class="card-title"> Experiences</h4>
+                        <p class="card-text">With a combined experience of over 10 years in the industry, ADLedger
+                            Services has successfully assisted numerous businesses in optimizing their financial
+                            processes and maintaining robust accounting systems</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <div class="container section ">
-        <div class=" row" style="display:flex !important;">
-            <div class=" col-md-6 col-sm-12 tc d-flex" style="align-items: center;justify-content: center;">
-                <h2 class="h1 about"><strong>About Us</strong></h2>
+</section>
+<section>
+    <div class="container ">
+        <div class="row align-items-start py-2 my-5 mb-lg-0 " style="    justify-content: space-around;">
+            <div class="col-md-5 mb-5 mb-lg-0">
+                <h2 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-4">Major experience</h2>
+
+                <div class="progress-bars ">
+                    <div class="progress-label d-flex justify-content-between">
+                        <span class="text-color-dark font-weight-semibold text-2">Financial Services</span>
+                        <span class="text-color-dark font-weight-semibold text-2">99%</span>
+                    </div>
+                    <div class="progress progress-xs progress-no-border-radius bg-color-grey-scale-2 mb-4">
+                        <div class="progress-bar progress-bar-primary" data-appear-progress-animation="99%"
+                            style="width: 99%;"></div>
+                    </div>
+
+                    <div class="progress-label d-flex justify-content-between pt-2">
+                        <span class="text-color-dark font-weight-semibold text-2">Quickbooks Support Services</span>
+                        <span class="text-color-dark font-weight-semibold text-2">95%</span>
+                    </div>
+                    <div class="progress progress-xs progress-no-border-radius bg-color-grey-scale-2 mb-4">
+                        <div class="progress-bar progress-bar-primary" data-appear-progress-animation="99%"
+                            style="width: 95%;"></div>
+                    </div>
+
+
+
+                    <div class="progress-label d-flex justify-content-between pt-2">
+                        <span class="text-color-dark font-weight-semibold text-2">Excel Accounting</span>
+                        <span class="text-color-dark font-weight-semibold text-2">81%</span>
+                    </div>
+                    <div class="progress progress-xs progress-no-border-radius bg-color-grey-scale-2 mb-4">
+                        <div class="progress-bar progress-bar-primary" data-appear-progress-animation="81%"
+                            style="width: 81%;"></div>
+                    </div>
+                </div>
             </div>
-            <div class=" col-md-6 col-sm-12 tc">
-                <p>At ChargeSol we aim to make <span class="teal">roaming and interoperability</span> a reality in
-                    India by building the backend operating system, which will also accelerate the transition to
-                    Electric vehicles across the country, fulfilling a low-carbon future.</p>
-                <p>Our Big Audacious Goal <span class="bold">(B.A.G)</span> is to be the largest <span class="bold">community</span> of the EV Industry. We will be the go-to-marketplace for all the
-                    key stakeholders in this system.</p>
-            </div>
-        </div>
+            <div class="col-md-6">
+                <h2 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-4">Vision &amp; Mission</h2>
+                <p>
 
-    </div>
-    <div class="container section ">
-        <div class=" row mt-5" style="display:flex !important;">
-
-            <div class=" col-md-6 col-sm-12 tc
-      order-2 order-sm-2 order-md-1 order-lg-1 order-xl-1 order-xxl-1
-      ">
-                <p style="font-size:18px;">Our mission is to enable 5 million EV owners to travel hassle free with a charging network of 100,000
-                    chargers on a single app around the country by providing a seamless charging experience across the
-                    networks of multiple CPOs</p>
-
-            </div>
-            <div class=" col-md-6 col-sm-12 tc d-flex order-1 order-sm-1 order-md-2 order-lg-2 order-xl-2 order-xxl-2" style="align-items: center;justify-content: center;">
-                <h2 class="h1 about"><strong>Mission</strong></h2>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="container section ">
-        <div class=" row mt-5" style="display:flex !important;">
-
-            <div class=" col-md-4 col-sm-12 text-center">
-
-                <img class="about-img" src="assets/img/about/1.png" alt="" style="width:70%;" />
-                <h4 class="about mt-3"><strong>Discover.</strong></h4>
-            </div>
-            <div class=" col-md-4 col-sm-12 text-center" style="align-items: center;justify-content: center;">
-
-                <img class="about-img" src="assets/img/about/2.png" alt="" style="width:70%;" />
-                <h4 class="about mt-3"><strong> Access.</strong></h4>
-            </div>
-            <div class=" col-md-4 col-sm-12 text-center " style="align-items: center;justify-content: center;">
-
-                <img class="about-img" src="assets/img/about/4.png" alt="" style="width:70%;" />
-                <h4 class="about mt-3"><strong> Pay.</strong></h4>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="container section ">
-        <div class=" row mt-5" style="justify-content: space-between;">
-
-            <div class=" col-md-6 col-sm-12 text-center">
-
-                <img class="about" src="assets/img/about/3.png" alt="" style="width:100%;" />
-
-            </div>
-            <div class=" col-md-4 col-sm-12 " style="    margin: auto;">
-                <h4 class="about"><strong>Features:</strong></h4>
-                <p style="font-size:18px;">
-                    - Energy Analytics<br>
-                    - Power of Integration<br>
-                    - Payment Processing<br>
-                    - Multi-level User Management<br>
-                    - Control & Monitor Remotely
+                    To be a trusted partner in simplifying and enhancing financial management for businesses of all
+                    sizes.
+                    <br>
+                    <br>
+                    Providing accurate, timely, and secure accounting solutions tailored to our clients' unique needs.
                 </p>
             </div>
-
         </div>
-
     </div>
-    <div class="container mt-5">
-        <div class="div-wrapper-copy d-none">
-            <h2 class="h1-2 center"><strong>Get to know the team</strong></h2>
-            <div class="div-block-1488 row">
-                <div class="team-row  col-md-12 col-sm-12 tc">
-                    <div class="div-block-1487">
-                        <h2 class="p-lg f-inter">Management</h2>
-                    </div>
-                    <div class="team-row-item-wrapper">
-                        <div class="w-dyn-list">
-                            <div role="list" class="collection-list-2 w-dyn-items">
-                                <div role="listitem" class="w-dyn-item">
-                                    <div class="team-item-wrapper">
-                                        <div style="background-image:url(<?php echo base_url(); ?>assets/img/male.png)" class="div-block-1489"></div>
-                                        <div class="p-18 mt-20">Rahul </div>
-                                        <div class="p-15">CEO</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-row mt-120 col-md-12 col-sm-12 tc">
-                    <div class="div-block-1487">
-                        <h2 class="p-lg f-inter">Global Operations </h2>
-                    </div>
-                    <div class="team-row-item-wrapper">
-                        <div class="w-dyn-list">
-                            <div role="list" class="collection-list-2 w-dyn-items row">
-                                <div role="listitem" class="w-dyn-item col-md-12 col-sm-12 tc">
-                                    <div class="team-item-wrapper">
-                                        <div style="background-image:url(<?php echo base_url(); ?>assets/img/female.png)" class="div-block-1489"></div>
-                                        <div class="p-18 mt-20">Ana-Maria Tonita </div>
-                                        <div class="p-15">Chief of Staff </div>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="w-dyn-item col-md-12 col-sm-12 tc">
-                                    <div class="team-item-wrapper">
-                                        <div style="background-image:url(<?php echo base_url(); ?>assets/img/female.png)" class="div-block-1489"></div>
-                                        <div class="p-18 mt-20">Ye Jiang </div>
-                                        <div class="p-15">Senior Manager Global Operations</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+</section>
+<section style="background-color: gainsboro;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12  pb-md-5 ">
+                <h3 class="text-center" style="font-weight: 600;">
+                    Leadership and Advisory Board
+                </h3>
             </div>
-        </div>
-    </div>
-    <div class="section-3 wf-section">
-        <div>
-            <div class="container ready_bg">
-                <div class="row justify-content-between items-center">
-                    <div class="col-md-7">
-                        <h2 class="aside-title">
-                            Join the ChargeSol <span class="teal">Revolution</span>: Powering the future of Electric
-                            Mobility
-                        </h2>
-                        <p class="aside-p">
-                            Gain a competitive advantage by joining the world’s largest
-                            eRoaming network.
-                        </p>
-                        <a href="<?php echo base_url('Contact'); ?>" data-w-id="c17c272e-a5d2-ba46-c5b9-42170fb868df" class="aside-btn button w-button">Get Started Today</a>
-                    </div>
-                </div>
+            <div class="col-md-4  mt-4">
+                <img src="" alt="" width="100%">
+                <h5 class="text-center">Col RS Samar (Retd)
+                </h5>
+                <p class="text-center"> (CEO)</p>
             </div>
+            <div class="col-md-7 mt-4">
+                <p>Col R S Samar, a seasoned executive with 31 years of experience in the Indian Army's Corps of
+                    Signals. As the CEO, Col RS Samar brings a wealth of expertise in management, operations, and
+                    facility infrastructure. Supported by experienced Directors Rakesh Sharma and Rohit Pareek, the team
+                    is enthusiastic, friendly, and self-motivated, fostering an open-minded and energetic approach.</p>
+                <p> Col RS Samar's diverse and rich experience spans administration, human resource management,
+                    successful execution of technical and administrative tasks, and efficient logistics planning. His
+                    academic qualifications include a graduate degree in science, specializing in microwave electronics,
+                    and postgraduate diplomas in HR and Labour laws & Labour welfare. As effective team leaders, the
+                    management is committed to carry the team together to achieve tasks efficiently and effectively.</p>
+            </div>
+  
+            <div class="col-md-4 mt-md-5">
+                <img src="" alt="" width="100%">
+                <h5 class="text-center">Rakesh Sharma
+                </h5>
+                <p class="text-center"> (Director)</p>
+            </div>
+            <div class="col-md-7 mt-md-5">
+                <p>I am Rakesh Sharma, a dedicated professional with a strong educational background, holding a B.Com. and CA Inter (Completed 3-year CA Article ship training in V.P. Mehta & Co Mumbai)
+
+                    Currently serving as the Director at Adledger Services Pvt Ltd., I bring over 15 years of invaluable experience in the field of accounting, Finance, Costing taxation, Auditing Accounting Software Tally, QuickBooks, SAP.</p>
+                
+            </div>
+     
+            <div class="col-md-4 mt-md-5">
+                <img src="" alt="" width="100%">
+                <h5 class="text-center">Rohit Pareek
+                </h5>
+                <p class="text-center"> (Director)</p>
+            </div>
+            <div class="col-md-7 mt-md-5">
+                <p>I'm Rohit Pareek, Director at Adledger Services Pvt Ltd. With a B.Com. and LL.B. background, I bring over 10 years of accounting expertise. Proficient in day-to-day tasks, inventory management, and client relations, I excel in Tally, QuickBooks, Advanced Excel, and iDiamond Cloud. My forte lies in crafting insightful management reports, efficient AR & AP management, and meticulous final accounts preparation.</p>
+                <p>Specializing in budgeting, forecasting, and audit compliance, I foster team collaboration and provide leadership for common goals. Committed to excellence, my decade-long journey in accounting reflects dedication to navigating complexities. Excited to contribute to Adledger's financial growth and operational success.</p>
+                
+            </div>
+
         </div>
     </div>
+</section>

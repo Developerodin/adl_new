@@ -62,7 +62,7 @@
 
                 <ul style="width: 100%;     justify-content: space-around;">
                     <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                    <li><a href="<?php echo base_url(); ?>">About</a></li>
+                    <li><a href="<?php echo base_url('About_Us'); ?>">About</a></li>
                     <li class="dropdown"><a href="#">Services <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('Cpo'); ?>">Finance</a></li>
