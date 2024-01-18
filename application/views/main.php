@@ -6,51 +6,148 @@
     background-color: transparent;
     position: absolute;
   }
+
+  .video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  #backgroundVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+  }
+
+  .text-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+
+  .text-overlay h1 {
+    margin: 0;
+    font-size: 6em;
+  }
+
+  .text-overlay h3 {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    line-height: 36px;
+  }
+
+  .def {
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .def .container {
+    height: 70%;
+    margin: auto;
+    text-align: start;
+    color: #fff;
+  }
+
+  .defh2 {
+    font-size: 48px;
+    line-height: 1;
+  }
+
+  .def.un {
+    height: 2px;
+    width: 200px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .def h3 {
+    font-size: 22px;
+    line-height: 1.91;
+    margin-top: 20px;
+  }
+
+  .def p {
+    color: #fff;
+  }
 </style>
 <section class="p-0">
   <div class="main">
-    <div style="position: relative;">
-      <!-- Video Overlay -->
-      <div style=" top: 0; left: 0; width: 100%; height:100vh; z-index: 1;    background: black;">
-        <video id="backgroundVideo" width="100%" height="100%" muted autoplay loop preload="auto"
-          style="object-fit: cover;    opacity: 0.5;">
+    <div class="video-section" id="parallax-section">
+      <div class="video-overlay">
+        <video id="backgroundVideo" autoplay muted loop preload="auto">
           <source src="assets/img/Bolor_Night_Cut.mp4" type="video/mp4">
         </video>
       </div>
-
-      <!-- Centered Text Overlay -->
-      <div
-        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; z-index: 2;">
-        <h1 style="margin: 0; font-size: 6em; --fontSize: 26; ">FINANCE</h1>
-        <h3 class="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
-          style="margin: 0; font-size: 1.5em; --fontSize: 26; line-height: 1.2;">
-          <span style="letter-spacing: 2px; line-height: 36px;"> FINANCE <strong>|</strong> ACCOUNTING
-            <strong>|</strong> DEVELOPMENT<span></span></span>
-        </h3>
+      <div class="text-overlay">
+        <h1>FINANCE</h1>
+        <h3>FINANCE <strong>|</strong> ACCOUNTING <strong>|</strong> DEVELOPMENT</h3>
       </div>
-
-      <!-- Additional Centered Text After Video -->
-
     </div>
-    <div class="def"
-      style="background-image: url('assets/img/back1.jpg');min-height:600px;align-items: center;display: flex;">
-      <div class="container" style="height: 70%;">
-
-        <h2 style="color: rgb(255, 255, 255);font-Size: 48px; line-height: 1;" class="">WHAT DEFINES US</h2>
-        <div class="un mt-5 " style="height: 2px;width:200px;background:#fff;"></div>
-        <h3 style="color: rgb(255, 255, 255);font-Size: 22; line-height: 1.91; " class="mt-4"><em>What defines us is not
-            what we do, but how we do it.</em></h3>
-
-        <p class="mt-5" style="color:#fff;">
+    <div class="def" style="background-image: url('assets/img/back1.jpg');">
+      <div class="container">
+        <h2>WHAT DEFINES US</h2>
+        <div class="un mt-5"></div>
+        <h3><em>What defines us is not what we do, but how we do it.</em></h3>
+        <p class="mt-5">
           ADLedger is dedicated to fostering growth and innovation at every level. Our mission is to create a
           collaborative work environment that promotes personal and professional development for both our clients and
-          team members.</p>
+          team members.
+        </p>
       </div>
-
     </div>
 
   </div>
+  <script>
+    // Parallax effect using JavaScript
+    document.addEventListener("DOMContentLoaded", function () {
+      var parallaxSection = document.getElementById("parallax-section");
+      var backgroundVideo = document.getElementById("backgroundVideo");
+      var textOverlay = document.querySelector(".text-overlay");
 
+      function updateParallax() {
+        var scrollPosition = window.scrollY;
+        var parallaxValue = scrollPosition * 0.5; // Adjust the speed of parallax
+
+        backgroundVideo.style.transform = "translateY(" + parallaxValue + "px)";
+        textOverlay.style.transform = "translate(-50%, calc(-50% + " + parallaxValue + "px))";
+      }
+
+      window.addEventListener("scroll", updateParallax);
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      var parallaxContainer = document.querySelector('.def');
+      var scrollPosition = window.scrollY;
+
+      function updateParallax() {
+        scrollPosition = window.scrollY;
+        parallaxContainer.style.backgroundPositionX = -scrollPosition * 0.4 + 'px';
+      }
+
+      window.addEventListener("scroll", updateParallax);
+    });
+  </script>
   <div class="container">
 
     <style>

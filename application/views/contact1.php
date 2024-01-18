@@ -38,39 +38,42 @@
   <section id="contact" class="contact">
     <div class="container">
 
-      <div class="section-title" data-aos="zoom-out">
+    
+      <div class="section-title col-md-12 text-center" data-aos="zoom-out">
         <h2 class="text-center">Contact Us</h2>
-        
+        <div style="height: 2px; background:brown; width:150px;margin:auto;"></div>
       </div>
-
       <div class="row mt-5">
 
         <div class="col-lg-4" data-aos="fade-right">
-          <div class="info">
-            <div class="address row" style="align-items: center;">
+         
+          <div class="info mt-4 col-md-12">
+            <div class="address row" >
               
               <h6 class="col-md-4" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i> &nbsp;</span>Location:</h6>
               <p class="col-md-8">407, 408, 409, 99 Shopping,
                 Opp. Bhagunagar, Sayan Road,
-                Amroli, Surat – 394107. Gujarat</p>
+                Amroli, Surat – 394107, Gujarat.</p>
             </div>
 
-            <div class="email row"style="align-items: center;">
+            <div class="email row">
               
               <h6 class="col-md-4"style="font-weight: 700;"><span><i class="bi bi-envelope"></i> &nbsp;</span>Email:</h6>
               <p class="col-md-8"> 3dn@3desirenetworks.com
               </p>
             </div>
 
-            <div class="phone row"style="align-items: center;">
+            <div class="phone row">
               
               <h6 class="col-md-4"style="font-weight: 700;"><span><i class="bi bi-phone"></i> &nbsp;</span>Call:</h6>
-              <p class="col-md-8">+ 91046 18680, <br>
+              <p class="col-md-8">+ 91046 18680, 
                 +91 9265221161</p>
             </div>
 
           </div>
-
+<div class="col-md-12">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29748.60444662089!2d72.80382406228252!3d21.248673249177042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fb71990e71b%3A0xee8750b08cfbdfa1!2s99%20Shopping%20Centre!5e0!3m2!1sen!2sin!4v1705557726501!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
         </div>
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
