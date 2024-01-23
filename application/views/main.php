@@ -91,6 +91,35 @@
   .def p {
     color: #fff;
   }
+
+  @media screen and (max-width: 768px) {
+    .text-overlay h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .text-overlay h3 {
+      margin: 0;
+      font-size: 1em;
+      line-height: 1;
+      letter-spacing: 2px;
+      line-height: 28px;
+    }
+    .cou .col-8{
+    margin: 20px;
+    }
+    .cou{
+   justify-content: center;
+   padding: 0;
+    }
+    .co1{
+    margin: 2%;}
+    .tc1{
+    text-align: center;}
+    .mtm{
+    margin-top: 50px;
+    }
+  }
 </style>
 <section class="p-0">
   <div class="main">
@@ -209,8 +238,8 @@
 <section style="background-color:#46387b;">
   <div class="container">
     <div class="row text-white">
-      <div class="col-md-5">
-        <h6>+12 Years Of Experience</h6>
+      <div class="col-md-5 tc1">
+        <h6>+1 Years Of Experience</h6>
         <h3 class="mt-4" style="font-weight: 600;">
           ADLedger offers comprehensive services in bookkeeping, payroll, and tax preparation</h3>
         <p class="mt-4">ADLedger is a finance and accounting-focused company, specializing in providing comprehensive
@@ -220,20 +249,20 @@
           clients through our dedicated services.</p>
       </div>
 
-      <div class="col-md-7 row" style="    align-items: center;">
-        <div class="col-md-4 col-4">
+      <div class="col-md-7 row cou" style="    align-items: center;">
+        <div class="col-md-4 col-8">
           <div class="count">
             <h2>1+</h2>
             <h6 class="mt-2">Years Of Work Experience</h6>
           </div>
         </div>
-        <div class="col-md-4 col-4">
+        <div class="col-md-4 col-8 ">
           <div class="count">
             <h2>100+</h2>
             <h6 class="mt-2">Hours Of Bookkeeping, Payroll & Tax Return Processing</h6>
           </div>
         </div>
-        <div class="col-md-4 col-4">
+        <div class="col-md-4 col-8">
           <div class="count">
             <h2>30+</h2>
             <h6 class="mt-2">Client Projects</h6>
@@ -245,13 +274,13 @@
   </div>
 </section>
 <section class="container ">
-  <div class="row">
-    <div class="col-md-12 mt-md-3">
+  <div class="row co1">
+    <div class="col-md-12 mt-3">
       <h2 class="text-center" style="width: 100%;">Bolgs</h2>
       <p class="text-center mt-3" style="width: 100%;">ADLedger provides trusted Outsourcing Services for bookkeeping,
         payroll, and tax preparation.</p>
     </div>
-    <div class="col-md-4 p-md-4">
+    <div class="col-md-4 p-md-4 mtm">
       <img src="assets/img/blog1.png" alt="" width="100%">
 
       <h6 class="mt-3" style="font-weight: 600;">Director &nbsp;-&nbsp;<span
@@ -262,7 +291,7 @@
       </p>
       <button class="btn btn-success" style="padding: 10px 20px;">Read more...</button>
     </div>
-    <div class="col-md-4 p-md-4">
+    <div class="col-md-4 p-md-4 mtm">
       <img src="assets/img/blog1.png" alt="" width="100%">
 
       <h6 class="mt-3" style="font-weight: 600;">Director &nbsp;-&nbsp;<span
@@ -273,7 +302,7 @@
       </p>
       <button class="btn btn-success" style="padding: 10px 20px;">Read more...</button>
     </div>
-    <div class="col-md-4 p-md-4">
+    <div class="col-md-4 p-md-4 mtm">
       <img src="assets/img/blog1.png" alt="" width="100%">
 
       <h6 class="mt-3" style="font-weight: 600;">Director &nbsp;-&nbsp;<span
