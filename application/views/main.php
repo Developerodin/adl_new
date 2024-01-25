@@ -105,19 +105,95 @@
       letter-spacing: 2px;
       line-height: 28px;
     }
-    .cou .col-8{
-    margin: 20px;
+
+    .cou .col-8 {
+      margin: 20px;
     }
-    .cou{
-   justify-content: center;
-   padding: 0;
+
+    .cou {
+      justify-content: center;
+      padding: 0;
     }
-    .co1{
-    margin: 2%;}
-    .tc1{
-    text-align: center;}
-    .mtm{
-    margin-top: 50px;
+
+    .co1 {
+      margin: 2%;
+    }
+
+    .tc1 {
+      text-align: center;
+    }
+
+    .mtm {
+      margin-top: 50px;
+    }
+  }
+
+
+
+  .dd .card {
+
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #00243a;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  }
+
+  .dd .card:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  .dd .card:active {
+    color: #000
+  }
+
+  .dd .card:active:after {
+    background: transparent;
+  }
+
+  .dd .card:hover:before {
+    opacity: 1;
+  }
+
+  .dd .card:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00243a;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  @keyframes glowing {
+    0% {
+      background-position: 0 0;
+    }
+
+    50% {
+      background-position: 400% 0;
+    }
+
+    100% {
+      background-position: 0 0;
     }
   }
 </style>
@@ -148,35 +224,7 @@
     </div>
 
   </div>
-  <script>
-    // Parallax effect using JavaScript
-    document.addEventListener("DOMContentLoaded", function () {
-      var parallaxSection = document.getElementById("parallax-section");
-      var backgroundVideo = document.getElementById("backgroundVideo");
-      var textOverlay = document.querySelector(".text-overlay");
 
-      function updateParallax() {
-        var scrollPosition = window.scrollY;
-        var parallaxValue = scrollPosition * 0.5; // Adjust the speed of parallax
-
-        backgroundVideo.style.transform = "translateY(" + parallaxValue + "px)";
-        textOverlay.style.transform = "translate(-50%, calc(-50% + " + parallaxValue + "px))";
-      }
-
-      window.addEventListener("scroll", updateParallax);
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      var parallaxContainer = document.querySelector('.def');
-      var scrollPosition = window.scrollY;
-
-      function updateParallax() {
-        scrollPosition = window.scrollY;
-        parallaxContainer.style.backgroundPositionX = -scrollPosition * 0.4 + 'px';
-      }
-
-      window.addEventListener("scroll", updateParallax);
-    });
-  </script>
   <div class="container">
 
     <style>
@@ -200,7 +248,7 @@
     </style>
 
 
-    <div class="row mt-md-5 mt-3 pb-md-5 pb-3">
+    <div class="row mt-md-5 mt-3 pb-md-5 pb-3  dd">
       <div class="col-md-12 mt-md-3">
         <h2 class="text-center" style="width: 100%;">Why Choose ADLedger Outsourcing?</h2>
         <p class="text-center mt-3" style="width: 100%;">ADLedger provides trusted Outsourcing Services for bookkeeping,
@@ -318,7 +366,35 @@
 
 
 
+<script>
+  // Parallax effect using JavaScript
+  document.addEventListener("DOMContentLoaded", function () {
+    var parallaxSection = document.getElementById("parallax-section");
+    var backgroundVideo = document.getElementById("backgroundVideo");
+    var textOverlay = document.querySelector(".text-overlay");
 
+    function updateParallax() {
+      var scrollPosition = window.scrollY;
+      var parallaxValue = scrollPosition * 0.5; // Adjust the speed of parallax
+
+      backgroundVideo.style.transform = "translateY(" + parallaxValue + "px)";
+      textOverlay.style.transform = "translate(-50%, calc(-50% + " + parallaxValue + "px))";
+    }
+
+    window.addEventListener("scroll", updateParallax);
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    var parallaxContainer = document.querySelector('.def');
+    var scrollPosition = window.scrollY;
+
+    function updateParallax() {
+      scrollPosition = window.scrollY;
+      parallaxContainer.style.backgroundPositionX = -scrollPosition * 0.4 + 'px';
+    }
+
+    window.addEventListener("scroll", updateParallax);
+  });
+</script>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
