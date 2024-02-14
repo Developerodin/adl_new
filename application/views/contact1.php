@@ -67,14 +67,15 @@
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-phone"></i> &nbsp;</span>Call:
               </h6>
-              <p class="col-md-8 col-8">+91 141 401 5544,
+              <p class="col-md-8 col-8">+91 141 401 5544,<br>
                 +91 95877 90340</p>
             </div>
 
           </div>
           <div class="col-md-12">
+           
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29748.60444662089!2d72.80382406228252!3d21.248673249177042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fb71990e71b%3A0xee8750b08cfbdfa1!2s99%20Shopping%20Centre!5e0!3m2!1sen!2sin!4v1705557726501!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.39231448505194!2d75.76281325891615!3d26.894701708964003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5e5b225b16d%3A0xf542239c61b2aba!2sADLedger%20Services!5e0!3m2!1sen!2sin!4v1707903126806!5m2!1sen!2sin"
               width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
@@ -90,6 +91,9 @@
               <div class="col-md-6 form-group mt-3 mt-md-0">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
               </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" required>
             </div>
             <div class="form-group mt-3">
               <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>

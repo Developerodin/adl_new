@@ -2,6 +2,10 @@
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <style>
+  section {
+    z-index: 999;
+  }
+
   .header {
     background-color: transparent;
     position: absolute;
@@ -31,12 +35,12 @@
   }
 
   .text-overlay {
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: #00243a;
     z-index: 1;
   }
 
@@ -128,8 +132,6 @@
     }
   }
 
-
-
   .dd .card {
 
     border: none;
@@ -189,37 +191,68 @@
     }
 
     50% {
-      background-position: 400% 0;
+      background-position: 200% 0;
     }
 
     100% {
       background-position: 0 0;
     }
   }
+
+  .bg-black1 {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    min-height: 600px;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+  }
+
+  .dds {
+    display: none;
+    max-width: 250px;
+  }
+
+  .ds {
+    display: block;
+    max-width: 250px;
+  }
+  .navbar a, .navbar a:focus {
+   
+    color: #121212;
+   
+}
+ .sticked .navbar a, .sticked .navbar a:focus {
+   
+    color: #fff;
+   
+}
 </style>
 <section class="p-0">
   <div class="main">
     <div class="video-section" id="parallax-section">
-      <div class="video-overlay">
-        <video id="backgroundVideo" autoplay muted loop preload="auto">
-          <source src="assets/img/Bolor_Night_Cut.mp4" type="video/mp4">
-        </video>
+      <div class="video-overlay" style="position: relative;">
+        <img src="assets/img/ban1.jpg" alt="" style="width: 100%;">
+        <div class="text-overlay">
+          <h1>FINANCE</h1>
+          <h3>FINANCE <strong>|</strong> ACCOUNTING <strong>|</strong> DEVELOPMENT</h3>
+        </div>
       </div>
-      <div class="text-overlay">
-        <h1>FINANCE</h1>
-        <h3>FINANCE <strong>|</strong> ACCOUNTING <strong>|</strong> DEVELOPMENT</h3>
-      </div>
+
     </div>
     <div class="def" style="background-image: url('assets/img/back1.jpg');">
-      <div class="container">
-        <h2>WHAT DEFINES US</h2>
-        <div class="un mt-5"></div>
-        <h3><em>What defines us is not what we do, but how we do it.</em></h3>
-        <p class="mt-5">
-          ADLedger is dedicated to fostering growth and innovation at every level. Our mission is to create a
-          collaborative work environment that promotes personal and professional development for both our clients and
-          team members.
-        </p>
+      <div class="bg-black1">
+        <div class="container">
+          <h2>WHAT DEFINES US</h2>
+          <div class="un mt-5"></div>
+          <h3><em>What defines us is not what we do, but how we do it.</em></h3>
+          <p class="mt-5">
+            ADLedger is dedicated to fostering growth and innovation at every level. Our mission is to create a
+            collaborative work environment that promotes personal and professional development for both our clients and
+            team members.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -283,9 +316,9 @@
   </div>
 
 </section>
-<section style="background-color:#46387b;">
+<section style="background-color:#9cc4e4;">
   <div class="container">
-    <div class="row text-white">
+    <div class="row text-black">
       <div class="col-md-5 tc1">
         <h6>+1 Years Of Experience</h6>
         <h3 class="mt-4" style="font-weight: 600;">
@@ -297,23 +330,23 @@
           clients through our dedicated services.</p>
       </div>
 
-      <div class="col-md-7 row cou" style="    align-items: center;">
+      <div class="col-md-7 row cou text-white" style="    align-items: center;">
         <div class="col-md-4 col-8">
           <div class="count">
-            <h2>1+</h2>
+            <h2>7+</h2>
             <h6 class="mt-2">Years Of Work Experience</h6>
           </div>
         </div>
         <div class="col-md-4 col-8 ">
           <div class="count">
-            <h2>100+</h2>
+            <h2>100k+</h2>
             <h6 class="mt-2">Hours Of Bookkeeping, Payroll & Tax Return Processing</h6>
           </div>
         </div>
         <div class="col-md-4 col-8">
           <div class="count">
-            <h2>30+</h2>
-            <h6 class="mt-2">Client Projects</h6>
+            <h2 style="width: 100%;">30+</h2><br>
+            <h6 class="mt-2" style="width: 100%;">Client Projects</h6>
           </div>
         </div>
       </div>
@@ -321,8 +354,8 @@
 
   </div>
 </section>
-<section class="container ">
-  <div class="row co1">
+<section class="container d-none">
+  <div class="row co1 ">
     <div class="col-md-12 mt-3">
       <h2 class="text-center" style="width: 100%;">Bolgs</h2>
       <p class="text-center mt-3" style="width: 100%;">ADLedger provides trusted Outsourcing Services for bookkeeping,
@@ -409,5 +442,26 @@
     video.addEventListener('playing', function () {
       additionalText.style.opacity = 1;
     });
+  });
+</script>
+<script>
+  window.addEventListener('scroll', function () {
+    var dsImage = document.querySelector('.ds');
+    var ddsImage = document.querySelector('.dds');
+
+    // Get the scroll position
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+    // Define the threshold for switching images (adjust as needed)
+    var switchThreshold = 20;
+
+    // Toggle the visibility of images based on scroll position
+    if (scrollPosition > switchThreshold) {
+      dsImage.style.display = 'none';
+      ddsImage.style.display = 'inline-block';
+    } else {
+      dsImage.style.display = 'inline-block';
+      ddsImage.style.display = 'none';
+    }
   });
 </script>

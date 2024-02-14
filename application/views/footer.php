@@ -71,133 +71,21 @@
     }
 </style>
 
-<div class="loginPopup">
-    <div class="formPopup" id="popupForm1">
-        <div class=" d-flex justify-content-center" style="height:100vh;align-items:center;">
-            <div class="formContainer text-center">
-                <div class="d-flex justify-content-end">
-                    <button type="button" class="btn cancel" onclick="closeForm1()"><i class="bi bi-x-lg"></i></button>
-                </div>
 
-                <img src="assets/img/logo2.png" width="250" alt="">
-                <h3 class="mt-5" style="color:#fff;font-weight: 800;">YOUR TRUSTED ADVISOR FOR NAVIGATING THE EV
-                    ECOSYSTEM</h3>
-                <h5 class="mt-3 pb-5"> Please reach out to us at <a href="mailto: team@ChargeSol.in"><span
-                            style="color:#fff;">team@ChargeSol.in</span></a></h5>
-
-                <form action="Consultation_mail" method="post">
-                    <div class="form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="name">Name:</label>
-                        </div>
-
-                        <div class="col-md-4">
-                            <input type="text" required name="name" style="width:100%;margin-bottom: 10px;">
-                        </div>
-
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="email">Email:</label>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="email" id="email" required name="email"
-                                style="width:100%;margin-bottom: 10px;">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="email">Subject:</label>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="text" id="subject" required name="Subject"
-                                style="width:100%;margin-bottom: 10px;">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="email">Message:</label>
-                        </div>
-                        <div class="col-md-4">
-                            <textarea type="text" rows="2" id="subject" required name="Subject"
-                                style="width:100%;margin-bottom: 10px;"></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" value="Submit">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="formPopup" id="popupForm">
-        <div class=" d-flex justify-content-center" style="height:100vh;align-items:center;">
-            <div class="formContainer text-center">
-                <div class="d-flex justify-content-end">
-                    <button type="button" class="btn cancel" onclick="closeForm()"><i class="bi bi-x-lg"></i></button>
-                </div>
-                <img src="assets/img/logo2.png" width="250" alt="">
-                <h3 class="mt-5" style="color:#fff;font-weight: 800;">LOOKING TO INVEST IN THE EV MARKET?</h3>
-                <h5 class="mt-3 pb-5"> Awesome! Please reach out to us at <a href="mailto: team@ChargeSol.in"><span
-                            style="color:#fff;">team@ChargeSol.in</span></a></h5>
-                <form action="Invest_mail" method="post" style="z-index: 9999;position: relative;">
-                    <div class=" form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="name">Name:</label>
-                        </div>
-
-                        <div class="col-md-4">
-                            <input type="text" required name="name" style="width:100%;margin-bottom: 10px;">
-                        </div>
-
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="email">Email:</label>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="email" id="email" required name="email"
-                                style="width:100%;margin-bottom: 10px;">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="email">Subject:</label>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="text" id="subject" required name="Subject"
-                                style="width:100%;margin-bottom: 10px;">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-4 text-end">
-                            <label for="email">Message:</label>
-                        </div>
-                        <div class="col-md-4">
-                            <textarea type="text" rows="2" required name="message"
-                                style="width:100%;margin-bottom: 10px;"></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" value="Submit">Submit</button>
-                </form>
-
-
-            </div>
-        </div>
-    </div>
-</div>
 <footer class="footer-no-negative wf-section">
     <div>
         <div class="container">
             <div class=" row ">
                 <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
                     <div class="footer-title" style="font-size: 22px;">Subscribe to our newsletter</div>
-                    <div class="subs-subtitle">Stay up to date with the latest ChargeSol news</div>
+                    <div class="subs-subtitle">Stay up to date with the latest ADLedger news</div>
                 </div>
                 <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
                     <div class="form-block w-form" style="width:100%;">
                         <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
 
-                            <input type="email" style="width:60%;" class="text-field w-input" maxlength="256"
-                                name="email" placeholder="Enter your email address" required="">
+                            <input type="email" style="width:60%; border-radius: 3px;" class="text-field w-input" maxlength="256"
+                                name="email" placeholder="Enter your email address" required="" >
 
                             <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger"
                                 style="width:30%">
@@ -231,51 +119,79 @@
             </a>
           </div> -->
             </div>
-        
-        <hr>
-        
+
+            <hr>
+
             <div class="  footer-row-1 row tc" style="    justify-content: space-around;">
-                <div class="col-lg-3 col-md-12 col-sm-12  mb-3"><a href="/" aria-current="page"
+                <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page"
                         class="w-inline-block w--current">
-                        <!-- <img src="assets/img/logo2.png" alt="" style="width:100%;"> -->
-                        <h3 style="color:#fff;">AjayDiam</h3>
+                        <img src="assets/img/logof.png" alt="" style="width:150px;">
+
                     </a>
                 </div>
-                <div class="div-block-24 row col-lg-9 col-md-12 col-sm-12 mt-3 mb-3">
-                    <div class="col-lg-4 col-md-6 col-sm-6  mt-2  tc">
+                <div class=" row col-md-9 mt-3 mb-3">
+                    <div class="col-lg-4 col-md-6 col-6  mt-2  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Services</div>
                         </div>
                         <div class="col-footer">
                             <a href="<?php echo base_url(''); ?>" class="footer-links mt-25">Finance</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">ACCOUNTING</a>
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Accounting</a>
 
                             <a href="<?php echo base_url('Fleet_Operators'); ?>"
-                                class="footer-links mt-16 hide">DEVELOPMENT</a>
-                           
+                                class="footer-links mt-16 hide">Development</a>
+
 
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-6  mt-2  tc">
+                    <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Company</div>
                         </div>
                         <div class="col-footer">
                             <a href="<?php echo base_url('About_Us'); ?>" class="footer-links mt-25">About Us</a>
                             <a href="<?php echo base_url('Career'); ?>" class="footer-links mt-16">Career</a>
+                            <a href="<?php echo base_url('Contact1'); ?>" class="footer-links mt-16">Contact</a>
 
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-12 col-6 mt-2  tc">
+                    <div class="col-lg-5 col-md-12 col-6 mt-3  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Other</div>
                         </div>
                         <div class="col-footer">
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-25">News & Articles</a>
-                            
-                            <a href="<?php echo base_url('Contact1'); ?>" class="footer-links mt-16">Contact</a>
+                            <div class="info mt-4 col-md-12 text-white">
+                                <div class="address row">
+
+                                    <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                class="bi bi-geo-alt"></i>
+                                            &nbsp;</span></h6>
+                                    <p class="col-md-10 col-12">C-87, Ribhu Path, Bhagirath Marg, Shyam Nagar,Jaipur, Pin
+                                        302019</p>
+                                </div>
+
+                                <div class="email row">
+
+                                    <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                class="bi bi-envelope"></i>
+                                            &nbsp;</span></h6>
+                                    <p class="col-md-10 col-12"> adledgerservices@gmail.com
+                                    </p>
+                                </div>
+
+                                <div class="phone row">
+
+                                    <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                class="bi bi-phone"></i> &nbsp;</span>
+                                    </h6>
+                                    <p class="col-md-10 col-12">+91 141 401 5544,
+                                        +91 95877 90340</p>
+                                </div>
+
+                            </div>
+
 
 
                         </div>
@@ -288,8 +204,8 @@
             <div class="footer-row-3 tc" style="    text-align: center;">
                 <div class="footer-copyw tc">
                     © <span class="current-year">2024</span>. All Rights Reserved &nbsp; &nbsp;・ &nbsp; &nbsp;
-                    <span class="_445254">AjayDiam</span>
-                    &nbsp; | &nbsp; <a href="/" class="_445254">Privacy Policy</a>
+                    <span class="_445254">ADLedger</span>
+                    &nbsp; | &nbsp; <a href="#" class="_445254">Privacy Policy</a>
                 </div>
             </div>
         </div>

@@ -41,7 +41,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
- 
+<style>
+    .ds {
+        display: none;
+        max-width: 250px;
+    }
+
+</style>
 </head>
 
 <body>
@@ -54,9 +60,10 @@
         <div class="container-fluid container-xl d-flex align-items-center  row "
             style="max-width: 100%;margin: auto;    justify-content: space-between;">
             <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center col-md-4 col-6 justify-content-center">
-                <!-- 
-                <img src="assets/img/logo2.png" style="max-width:250px;" alt=""> -->
-                <h1 style="text-align: center;">AjayDiam<span>.</span></h1>
+                
+                <img class="ds" src="assets/img/logo.png" style="max-width:250px;" alt=""> 
+                <img class="dds" src="assets/img/logof.png" style="max-width:250px;" alt=""> 
+                
             </a>
             <nav id="navbar" class="navbar col-md-6 ">
 
@@ -71,7 +78,7 @@
                             <li><a href="<?php echo base_url(''); ?>">Development</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url(); ?>">News</a></li>
+                   
                     <li><a href="<?php echo base_url('Contact1'); ?>">Contact</a></li>
                     
                 </ul>
@@ -82,4 +89,4 @@
 
         </div>
     </header><!-- End Header -->
-    <!-- End Header -->
+    <!-- End Header --> 

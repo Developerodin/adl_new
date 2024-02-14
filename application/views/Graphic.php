@@ -195,11 +195,12 @@
                 <h1 class="pt-3 pl-3">Job Description</h1>
                 <p style="margin-top:10px;">
 
-                    Hello Dear Aspirant,
-                    We are looking for some experienced as well as fresh talent of graphic designers, web developers,
-                    business development managers, and social media managers in their particular field.
+                
+Hello Prospective Candidate,
+
+We are currently seeking individuals with both seasoned expertise and fresh perspectives in the realm of accounting. We are on the lookout for skilled professionals in various roles, including accountants, financial analysts, and auditors. If you possess a strong background in accounting and are eager to contribute your talents to our team, we welcome your application.
                 </p>
-                <h5>BUSINESS DEVELOPMENT MANAGER</h5>
+                <h5>Accountants</h5>
                 <p class="m-0">
                     Selected candidate’s day-to-day responsibilities include:<br>
 
@@ -221,8 +222,7 @@
                         Design
                     </p>
                     <p>
-                        <span style="font-weight:700;">Skills -</span>Adobe Creative Suite, CorelDraw, MS-Office, UI/UX
-                        Design, Creative mind-set
+                        <span style="font-weight:700;">Skills -</span> Analytical, Attention to Detail,Organizational
                     </p>
                     <p>
                         <span style="font-weight:700;">Salary –</span>

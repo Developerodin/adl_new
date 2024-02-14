@@ -72,7 +72,7 @@
     </div>
 </div>
 
-<section style="background-color: gainsboro;">
+<section style="background-color: #e4f0f6;">
     <div class="container">
         <div class="row">
             <div class="col-md-6 p-5">
@@ -105,7 +105,7 @@
 <section class="p-0">
 
     <div class="row">
-        <div class="col-md-6 p-5" style="background-color: aquamarine;">
+        <div class="col-md-6 p-5" style="background-color: #9cc4e4;">
             <div class="container">
                 <h2 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-4">Mission</h2>
                 <p>
@@ -115,7 +115,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-md-6 p-5" style="background-color: aqua;">
+        <div class="col-md-6 p-5" style="background-color: #5ba4cf;">
             <div class="container">
                 <h2 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-4">Vision </h2>
                 <p>

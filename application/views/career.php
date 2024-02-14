@@ -26,13 +26,13 @@
                 <div class="row d-flex h-677 mt-144">
                     <div class="p1-hero-row-left z-1">
                         <h1 class="hero-title"> Join The Team which will help Shape the Future of
-                            <span class="orange">Sustainable Mobility </span>
+                            <span class="orange">Accounting </span>
                         </h1>
                         <p class="p mt-32 _w-582">In case you don’t find a relevant position, feel free to write to us
-                            at <a href="mailto: team@ChargeSol.in">team@ChargeSol.in</a>
+                            at <a href="mailto: team@ChargeSol.in">hello@adledger.in</a>
                         </p>
                         <div class="hero-btn-wrapper">
-                            <a href="<?php echo base_url('Contact'); ?>"
+                            <a href="<?php echo base_url('Contact1'); ?>"
                                 data-w-id="f4f18225-2f7a-1018-3f68-7b938e7cc7fd"
                                 class="button _50 w-button aside-btn mt-0">Get Started Now</a>
                             <!--- <a  class="link-block w-inline-block">
@@ -91,12 +91,12 @@
 
                             </div>
                             <a href="<?php echo base_url('BUSINESS'); ?>">
-                                <h4 class="mt-3" style="font-weight: 900;">BUSINESS DEVELOPMENT MANAGER</h4>
+                                <h4 class="mt-3" style="font-weight: 900;">Accountent</h4>
                             </a>
 
                             <div class="mt-4">
                                 <span class="cmp-teaser__job-listing-semibold" style="font-weight: 600;">Business
-                                    Area : </span> Sales
+                                    Area : </span> Accounting
                             </div>
 
                             <div class="cmp-teaser__job-posted mt-2">
