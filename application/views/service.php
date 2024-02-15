@@ -355,20 +355,75 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="assets/img/fin1.jpg" alt="" width="100%">
-        </div>
-        <div class="col-md-6">
-          <p class="">
-            <span class="h3" style="font-weight: 800;">2.	Financial Statements - </span>
-            Preparation of financial statements such as balance sheets, income statements, and cash flow statements to provide a snapshot of a company's financial health.
-          </p>
-          <p class="pt-3">
-            <span class="h3" style="font-weight: 800;">3.	Tax Services - </span>
-            Ensuring compliance with tax regulations, and advising on tax planning strategies to optimize financial outcomes.
-          </p>
-        </div>
+   
+      
+
+    </div>
+  </div>
+</section>
+<section style="background-color: #9cc4e4;">
+  <div class="container">
+    <div class="row " >
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <img src="assets/img/fin1.jpg" alt="" width="100%">
+      </div>
+      <div class="col-md-6">
+        <p class="">
+          <span class="h5" style="font-weight: 800;">Financial Statements - </span>
+          Preparation of financial statements such as balance sheets, income statements, and cash flow statements to provide a snapshot of a company's financial health.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Tax Services - </span>
+          Ensuring compliance with tax regulations, and advising on tax planning strategies to optimize financial outcomes.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Payroll Services - </span>
+          Managing payroll processes, including salary calculations, tax withholdings, and compliance with payroll regulations.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Consulting - </span>
+          Providing financial advice and strategic guidance to help businesses make informed decisions and improve financial performance.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Budgeting and Forecasting - </span>
+          Assisting businesses in creating budgets, forecasting financial trends, and monitoring actual performance against projected figures.
+        </p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      
+      <div class="col-md-6">
+        
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Financial Analysis - </span>
+          Analyzing financial data to identify trends, strengths, weaknesses, and opportunities for improvement.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Compliance and Regulatory Reporting - </span>
+          Ensuring businesses adhere to relevant financial regulations and filing necessary reports with regulatory authorities.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Technology Integration - </span>
+          Specialize in implementing and optimizing accounting software, offering tech solutions that streamline financial processes.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Outsourced Accounting - </span>
+          Provide comprehensive outsourced accounting services, handling all financial tasks for clients.
+        </p>
+        <p class="pt-3">
+          <span class="h5" style="font-weight: 800;">Risk Management - </span>
+          Assessing and managing financial risks to safeguard the financial stability of a business.
+        </p>
+        
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <img src="assets/img/fin1.jpg" alt="" width="100%">
+      </div>
+      <div class="col-md-12 mt-4">
+        <p class="pt-3 text-center">
+         
+          Accounting services companies play a crucial role in helping businesses maintain accurate financial records, navigate complex regulations, and make sound financial decisions. Their services are often tailored to meet the specific needs of individual clients and industries.
+      </p>
       </div>
     </div>
   </div>
