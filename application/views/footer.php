@@ -134,6 +134,7 @@
                         <div class="col-footer">
                             <a href="<?php echo base_url('About_Us'); ?>" class="footer-links mt-25">About Us</a>
                             <a href="<?php echo base_url('Career'); ?>" class="footer-links mt-16">Career</a>
+                            <a href="<?php echo base_url('News'); ?>" class="footer-links mt-16">Articles & News</a>
                             <a href="<?php echo base_url('Contact1'); ?>" class="footer-links mt-16">Contact</a>
 
                         </div>

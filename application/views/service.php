@@ -345,7 +345,7 @@
                 <div class="ag-courses-item_bg"></div>
       
                 <div class="ag-courses-item_title">
-                14)<br>	Preparation of various reports required for compliance under applicable Rules & Regulations such as GST/TDS etc.
+                14)<br>	Preparation of various reports required for compliance under applicable Rules & Regulations.
                 </div>
       
                
@@ -361,11 +361,11 @@
     </div>
   </div>
 </section>
-<section style="background-color: #9cc4e4;">
+<section style="background-color: #e9f2fa;">
   <div class="container">
     <div class="row " >
       <div class="col-md-6 d-flex justify-content-center align-items-center">
-        <img src="assets/img/fin1.jpg" alt="" width="100%">
+        <img src="assets/img/fin2.jpg" alt="" width="100%">
       </div>
       <div class="col-md-6">
         <p class="">
