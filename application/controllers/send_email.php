@@ -33,7 +33,7 @@ public function index(){
 //    $to = 'purplepeoplelabsquery@gmail.com';
 
 
-	$message = 'Hello Team, <br /> You have a contact request on ChargeSol Portal. <br />
+	$message = 'Hello Team, <br /> You have a contact request on ADLedger Portal. <br />
 	<table>
   <tr>
     <th style="width:20%;">Heading</th>

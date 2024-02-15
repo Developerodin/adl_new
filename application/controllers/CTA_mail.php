@@ -30,11 +30,11 @@ class CTA_mail extends CI_Controller
 		$this->email->initialize($config);
 
 		$from = 'theodinjaipur@gmail.com';
-		//  $to = 'ronakvaya@gmail.com';
-		$to = 'team@intercharge.in';
+		 $to = 'anshulkumar969602@gmail.com';
+		// $to = 'team@intercharge.in';
 
-		$subject = 'CTA Clicks';
-		$message = 'Hello Team, <br /> You have a contact request on ChargeSol Portal. <br />';
+		$subject = 'ADLedger Contact';
+		$message = 'Hello Team, <br /> You have a contact request on ADLedger Portal. <br />';
 		unset($_POST['g-recaptcha-response']);
 
 		foreach ($_POST as $key => $value) {

@@ -34,16 +34,19 @@
 
 
 <main id="main">
+  <div class="mainimg" style="position: relative;background:black;">
+    <img src="assets/img/contact.jpg" alt="" width="100%" style="    opacity: 0.4;">
+    <div class="over" style="position: absolute;  top: 50%;left: 50%; transform: translate(-50%, -50%)">
+      <h1 class="h0 mt-30 mt-4"> <span class="orange text-white">Contact Us</span></h1>
+    </div>
+  </div>
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
     <div class="container">
 
-
-      <div class="section-title col-md-12 text-center" data-aos="zoom-out">
-        <h2 class="text-center">Contact Us</h2>
-        <div style="height: 2px; background:brown; width:150px;margin:auto;"></div>
-      </div>
-      <div class="row mt-5">
+      
+      
+      <div class="row mt-3">
 
         <div class="col-lg-4" data-aos="fade-right">
 
@@ -73,7 +76,7 @@
 
           </div>
           <div class="col-md-12">
-           
+
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.39231448505194!2d75.76281325891615!3d26.894701708964003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5e5b225b16d%3A0xf542239c61b2aba!2sADLedger%20Services!5e0!3m2!1sen!2sin!4v1707903126806!5m2!1sen!2sin"
               width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
@@ -83,7 +86,7 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-          <form action="Contact/form" method="post" role="form" class="php-email-form">
+          <form action="CTA_mail" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
