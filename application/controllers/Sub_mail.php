@@ -30,11 +30,11 @@ class Sub_mail extends CI_Controller
 		$this->email->initialize($config);
 
 		$from = 'theodinjaipur@gmail.com';
-		 $to = 'anshulkumar969602@gmail.com';
+		 $to = 'adledgerservices@gmail.com';
 		// $to = 'team@intercharge.in';
 
 		$subject = 'ADLedger Contact';
-		$message = 'Hello Team, <br /> You have a contact request on ADLedger Portal. <br />';
+		$message = 'Hello Team, <br /> You have a Subscribe request on ADLedger Portal. <br />';
 		unset($_POST['g-recaptcha-response']);
 
 		foreach ($_POST as $key => $value) {

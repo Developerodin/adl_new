@@ -30,7 +30,7 @@ class CTA_mail extends CI_Controller
 		$this->email->initialize($config);
 
 		$from = 'theodinjaipur@gmail.com';
-		 $to = 'anshulkumar969602@gmail.com';
+		 $to = 'adledgerservices@gmail.com';
 		// $to = 'team@intercharge.in';
 
 		$subject = 'ADLedger Contact';
