@@ -30,11 +30,11 @@ class Sub_mail extends CI_Controller
 		$this->email->initialize($config);
 
 		$from = 'theodinjaipur@gmail.com';
-		//  $to = 'ronakvaya@gmail.com';
-		$to = 'team@intercharge.in';
+		 $to = 'anshulkumar969602@gmail.com';
+		// $to = 'team@intercharge.in';
 
-		$subject = 'Subscribe mailbox';
-		$message = 'Hello Team, <br /> You have a contact request on ChargeSol Portal. <br />';
+		$subject = 'ADLedger Contact';
+		$message = 'Hello Team, <br /> You have a contact request on ADLedger Portal. <br />';
 		unset($_POST['g-recaptcha-response']);
 
 		foreach ($_POST as $key => $value) {
@@ -54,22 +54,7 @@ class Sub_mail extends CI_Controller
 
 	}
 
-	public function insert_data()
-	{
-		print_r($_POST);
 
-		// $this->load->model('home');
-		// $data['name'] =$this->input->post('name');
 
-		// $data['mobile']=$this->input->post('mobile');
-		// $data['email']=$this->input->post('email');
-		// $data['district']=$this->input->post('district');
-		// $data['assembly']=$this->input->post('assembly');
-		// $data['facebook']=$this->input->post('facebook');
-		// $data['twitter']=$this->input->post('twitter');
-		// $data['instagram']=$this->input->post('instagram');
-
-		// $this->home->insert_data($data); 
-	}
 
 }
