@@ -73,7 +73,7 @@
                     <li><a href="<?php echo base_url('About_Us'); ?>">About</a></li>
                     <li class="dropdown"><a href="#">Services <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="<?php echo base_url('Finance'); ?>">Finance</a></li>
+                            <li><a href="<?php echo base_url(''); ?>">Finance</a></li>
                             <li><a href="<?php echo base_url(''); ?>">Investment</a></li>
                             <li><a href="<?php echo base_url(''); ?>">Development</a></li>
                         </ul>
