@@ -79,6 +79,7 @@
                         </ul>
                     </li>
                    
+                    <li><a href="<?php echo base_url('News'); ?>">Articles & News</a></li>
                     <li><a href="<?php echo base_url('Contact1'); ?>">Contact</a></li>
                     
                 </ul>

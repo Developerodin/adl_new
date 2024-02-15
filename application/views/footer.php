@@ -80,7 +80,8 @@
                     <div class="footer-title" style="font-size: 22px;">Subscribe to our newsletter</div>
                     <div class="subs-subtitle">Stay up to date with the latest ADLedger news</div>
                 </div>
-                <div class="tc  col-md-8 col-sm-12 mt-3 mb-3">
+                <div class="tc  col-md-8
+                 col-sm-12 mt-3 mb-3">
                     <div class="form-block w-form" style="width:100%;">
                         <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
 
@@ -90,8 +91,6 @@
                             <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger"
                                 style="width:30%">
                         </form>
-
-
 
                         <div class="success-message-2 w-form-done" tabindex="-1" role="region"
                             aria-label="Newsletter-footer success">
@@ -103,30 +102,14 @@
                         </div>
                     </div>
                 </div>
-                <!--<div  class="tc col-md-12 col-sm-12 mt-3 mb-3" >
-            <a href="https://www.linkedin.com/" class="social-footer w-inline-block">
-            <div class="social_icon"><i class="bi bi-linkedin"></i></div>
-            </a>
-            <a href="" class="social-footer ml-32 w-inline-block">
-              <div class="social_icon"><i class="bi bi-instagram"></i></div>
-            
-            </a>
-            <a href="" class="social-footer ml-32 w-inline-block">
-            <div class="social_icon"><i class="bi bi-facebook"></i></div>
-            </a>
-            <a href="https://www.youtube.com/" class="social-footer ml-32 w-inline-block">
-              <div class="social_icon"><i class="bi bi-youtube"></i></div>
-            </a>
-          </div> -->
+               
             </div>
 
             <hr>
-
             <div class="  footer-row-1 row tc" style="    justify-content: space-around;">
                 <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page"
                         class="w-inline-block w--current">
                         <img src="assets/img/logof.png" alt="" style="width:150px;">
-
                     </a>
                 </div>
                 <div class=" row col-md-9 mt-3 mb-3">
@@ -144,7 +127,6 @@
 
                         </div>
                     </div>
-
                     <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Company</div>
@@ -156,14 +138,13 @@
 
                         </div>
                     </div>
-
-                    <div class="col-lg-5 col-md-12 col-6 mt-3  tc">
+                    <div class="col-lg-5 col-md-12 col-12 mt-3  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Other</div>
                         </div>
                         <div class="col-footer">
-                            <div class="info mt-4 col-md-12 text-white">
-                                <div class="address row">
+                            <div class="info mt-4 col-md-12 text-white row">
+                                <div class="address row col-md-12 col-6">
 
                                     <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                 class="bi bi-geo-alt"></i>
@@ -171,8 +152,7 @@
                                     <p class="col-md-10 col-12">C-87, Ribhu Path, Bhagirath Marg, Shyam Nagar,Jaipur, Pin
                                         302019</p>
                                 </div>
-
-                                <div class="email row">
+                                <div class="email row col-md-12 col-6">
 
                                     <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                 class="bi bi-envelope"></i>
@@ -180,26 +160,17 @@
                                     <p class="col-md-10 col-12"> adledgerservices@gmail.com
                                     </p>
                                 </div>
-
-                                <div class="phone row">
-
+                                <div class="phone row col-md-12 col-6">
                                     <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                 class="bi bi-phone"></i> &nbsp;</span>
                                     </h6>
-                                    <p class="col-md-10 col-12">+91 141 401 5544,
-                                        +91 95877 90340</p>
+                                    <p class="col-md-10 col-12">+91 141 401 5544, +91 95877 90340</p>
                                 </div>
-
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
             </div>
-
-
             <hr>
             <div class="footer-row-3 tc" style="    text-align: center;">
                 <div class="footer-copyw tc">
