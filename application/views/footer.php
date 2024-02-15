@@ -76,11 +76,11 @@
     <div>
         <div class="container">
             <div class=" row ">
-                <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
+                <div class="tc  col-md-4 col-sm-12 mt-3 mb-3">
                     <div class="footer-title" style="font-size: 22px;">Subscribe to our newsletter</div>
                     <div class="subs-subtitle">Stay up to date with the latest ADLedger news</div>
                 </div>
-                <div class="tc  col-md-6 col-sm-12 mt-3 mb-3">
+                <div class="tc  col-md-8 col-sm-12 mt-3 mb-3">
                     <div class="form-block w-form" style="width:100%;">
                         <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
 

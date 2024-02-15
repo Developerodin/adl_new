@@ -7,128 +7,127 @@
   " rel="stylesheet">
 
 <style>
-.card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-}
-
-.splide__slide {
-    margin: 1px 20px;
-}
-</style>
-<div class="hero-section wf-section">
-    <div class="container__solutions mb-5 text-center">
-        <h1 class="h0 mt-30 mt-4"> <span class="orange">News & Articles</span></h1>
-        <section class="splide" aria-label="Splide Basic HTML Example">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide card1"><a
-                            href="https://economictimes.indiatimes.com/industry/renewables/ev-sales-rise-148-to-race-past-1-18-million/articleshow/99180406.cms">
-                            <img src="<?php echo base_url(); ?>/assets/img/news/6.webp" width="250" height="300"
-                                alt="" />
-                            <h5 class="mt-3" style="height: 51px;overflow: hidden;margin: 1px
-              10px;">Electric vehicle sales rise 148% to race past 1.18 million</h5>
-                        </a>
-                    </li>
-                    <li class="splide__slide card1"><a
-                            href="https://www.business-standard.com/article/automobile/mercedes-benz-to-launch-4-evs-in-india-in-8-12-months-matthias-luehrs-123032301027_1.html">
-                            <img src="<?php echo base_url(); ?>/assets/img/news/7.webp" width="250" height="300"
-                                alt="" />
-                            <h5 class="mt-3" style="height: 51px;overflow: hidden;margin: 1px
-              10px;">Mercedes-Benz plans to launch 4 electric vehicles in India in 8-12 months</h5>
-                        </a>
-                    </li>
-                    <li class="splide__slide card1"><a
-                            href="https://www.hindustantimes.com/car-bike/report-finds-4-states-with-most-comprehensive-ev-policies-in-india-they-are-101676633036567.html">
-                            <img src="<?php echo base_url(); ?>/assets/img/news/8.webp" width="250" height="300"
-                                alt="" />
-                            <h5 class="mt-3" style="height: 51px;overflow: hidden;margin: 1px
-              10px;">Report finds 4 states with most comprehensive EV policies in India. They are… </h5>
-                        </a>
-                    </li>
-                    <li class="splide__slide card1"><a
-                            href="https://economictimes.indiatimes.com/industry/renewables/ev-calculator">
-                            <img src="<?php echo base_url(); ?>/assets/img/news/2.jpg" width="250" height="300"
-                                alt="" />
-                            <h5 class="mt-3" style="height: 51px;overflow: hidden;margin: 1px
-              10px;">Electric Vehicle Calculator</h5>
-                        </a>
-                    </li>
-                    <li class="splide__slide card1"><a
-                            href="https://www.india-briefing.com/news/indian-government-tightens-release-of-fame-2-subsidies-probes-ev-makers-26973.html/r">
-                            <img src="<?php echo base_url(); ?>/assets/img/news/1.webp" width="250" height="300"
-                                alt="" />
-                            <h5 class="mt-3" style="height: 51px;overflow: hidden;margin: 1px
-              10px;">India Tightens Release of FAME-2 Subsidies for EV Makers, May Not Extend Scheme</h5>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-
-    </div>
-</div>
-<div class="hero-section wf-section">
-    <div class="container mb-5 text-center">
-        <h1 class="h0 mt-30"> <span class="orange">News Upadate</span></h1>
-        <div class="row mt-5">
-
-
-
-            <div class="col-md-4 card1"><a href="https://www.virta.global/blog/what-is-roaming-in-ev-charging">
-                    <img src="<?php echo base_url(); ?>/assets/img/news/10.png" width="250" height="300" alt="" />
-                    <h5 class="mt-3" style="height: 51px;overflow: hidden;margin: 1px
-          10px;">Why roaming is the buzzword in electric vehicle charging</h5>
-                </a>
-            </div>
-            <div class="col-md-4 card1"><a
-                    href="https://www.bain.com/insights/electric-vehicle-charging-shifts-into-high-gear/">
-                    <img src="<?php echo base_url(); ?>/assets/img/news/11.jpg" width="250" height="300" alt="" />
-                    <h5 class="mt-3" style="height: 51px;overflow: hidden;margin: 1px
-          10px;">EV Charging Shifts into High Gear </h5>
-                </a>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-<script>
-var splide = new Splide('.splide', {
-    type: 'loop',
-    perPage: 3,
-    perMove: 1,
-    autoplay: 2000,
-    speed: 800,
-    // Default parameters
-    slidesPerView: 4,
-    spaceBetween: 1,
-    // Responsive breakpoints
-    breakpoints: {
-        120: {
-            slidesPerView: 1,
-            spaceBetween: 20
-        },
-        640: {
-            slidesPerView: 2,
-            spaceBetween: 20
-        },
-        768: {
-            slidesPerView: 3,
-            spaceBetween: 40
-        },
-        1024: {
-            slidesPerView: 4,
-            spaceBetween: 50
-        }
+    .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
     }
 
-});
+    .splide__slide {
+        margin: 1px 20px;
+    }
+</style>
+<div class="mainimg" style="position: relative;background:black;">
+    <img src="assets/img/news.jpg" alt="" width="100%" style="    opacity: 0.4;">
+    <div class="over" style="position: absolute;  top: 50%;left: 50%; transform: translate(-50%, -50%)">
+        <h1 class="h0 mt-30 mt-4"> <span class="orange text-white">Articles & News</span></h1>
+    </div>
+</div>
+<section>
+    <div class="hero-section wf-section">
+        <div class="container border">
+            <div class="entry-content p-4">
 
-splide.mount();
-</script>
+                <h1 style="color: #09445a; margin-bottom: 10px;    font-weight: 700;">
+                    Upholding Integrity: The Cornerstone of Accounting Ethics<br>
+
+                </h1>
+                <p>Short Analysis
+                </p>
+                <div style="height: 4px;background-color:#9cc4e4;margin:0 5px;"></div>
+                <div class="item-media post-thumbnail mt-3">
+                    <img src="assets/img/news1.jpg" alt="img">
+                </div> <br>
+
+                <div class="row">
+                    <div class="col-md-8 mt-md-4 mt-3">
+                        <div class="post-content">
+                            <h4 class="pb-md-4 pb-2" style="color: #09445a; margin-bottom: 10px;    font-weight: 700;">
+                                Upholding Integrity: The Cornerstone of Accounting Ethics</h4>
+                            <div>
+                                <h5 class="pb-2" style="font-weight: 600;">The Importance of Ethical Accounting
+                                    Practices</h5>
+                                <p>Accounting is more than just number-crunching; it's about providing accurate,
+                                    reliable information that enables informed decision-making. Ethical accounting
+                                    practices ensure that financial data is not only accurate but also presented in a
+                                    fair and transparent manner. This is essential for fostering trust and confidence
+                                    among investors, creditors, and other stakeholders.</p>
+                            </div>
+                            <div class="mt-5">
+                                <h5 class="pb-2" style="font-weight: 600;">Key Principles of Accounting Ethics</h5>
+                                <p><span style="font-weight: 700;">1. Integrity:</span> Integrity forms the backbone of
+                                    ethical accounting. It all professional and business relationships, ensuring that
+                                    financial information is not manipulated or represented in such fashion not to gain
+                                    personal interest.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-md-4 mt-3"
+                        style="    background: #9cc4e4;">
+                        <br>
+                        <div style="padding: 20px;">
+                            <h6 style="    font-size: larger;">At ADLedger Services Pvt. Ltd., we understand that ethics isn't just a buzzword; it's
+                                the very foundation upon which the accounting profession stands. In an era where
+                                transparency and accountability are paramount, maintaining the highest standards of
+                                ethics is not just a choice, but a responsibility we owe to our clients, stakeholders,
+                                and society at large.</h6>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 row">
+                        <div class="col-md-6 mt-3">
+                            <div class="mt-2">
+                               
+                                <p><span style="font-weight: 700;">2. Objectivity:</span> Objectivity requires accountants to remain impartial and unbiased, which should not compromise their judgment. This means making decisions based solely on factual facts and judgment, rather than personal biases or outside influences.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="mt-2">
+                               
+                                <p><span style="font-weight: 700;">3. Confidentiality:</span>  Confidentiality is crucial in maintaining trust between accountants and their clients. Accountants must respect the confidentiality of client’s information and refrain from disclosing sensitive data.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="mt-2">
+                               
+                                <p><span style="font-weight: 700;">4. Professional Competence and Due Care:</span> Professional competence involves staying up to date with the latest accounting standards, regulations, and industry trends. Accountants will exercise due care by diligently performing their duties and applying their expertise to the best of their abilities.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="mt-2">
+                               
+                                <p><span style="font-weight: 700;">5. Professional Behaviour:</span> Professional behaviour encompasses acting in a manner that upholds the reputation of the accounting profession. This includes treating colleagues, clients, and other stakeholders with respect and courtesy, as well as refraining from engaging in activities which could bring discredit to the profession.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <h4 class="pb-2 text-center" style="font-weight: 600;" >Our Commitment to Ethical Excellence</h4>
+                        <p class="text-center">At ADLedger Services Pvt. Ltd., we are committed to upholding the highest standards of ethics in all aspects of our work. Our team of experienced professionals adheres strictly to the principles of integrity, objectivity, confidentiality, professional competence, and professional behaviour.</p>
+                        <p class="mt-3 text-center">
+                            We recognize that lapses can have serious consequences, not only for our clients but also for our reputation and the accounting profession. That's why we have implemented rigorous internal controls and guidelines to ensure compliance with regulatory requirements and industry best practices.
+                        </p>
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <h4 class="pb-2 text-center" style="font-weight: 600;" >Conclusion</h4>
+                        <p class="text-center">Ethical accounting practices are not just a moral imperative; they are essential for the sustainability and credibility of the accounting profession. At ADLedger Services Pvt. Ltd., we pride ourselves on our unwavering commitment to ethics and integrity, and we are dedicated to serving our clients with honesty, transparency, and professionalism always. When you choose us as your trusted partner, you can rest assured that your financial interests are in safe hands.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-12 pt-5">
+                    <div class="post-content">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
