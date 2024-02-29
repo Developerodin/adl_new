@@ -31,7 +31,7 @@ class CTA_mail extends CI_Controller
 
 		$from = 'theodinjaipur@gmail.com';
 		 $to = 'adledgerservices@gmail.com';
-		// $to = 'team@intercharge.in';
+		
 
 		$subject = 'ADLedger Contact';
 		$message = 'Hello Team, <br /> You have a contact request on ADLedger Portal. <br />';
@@ -40,8 +40,6 @@ class CTA_mail extends CI_Controller
 		foreach ($_POST as $key => $value) {
 			$message = $message . $key . '- ' . $value . '<br>';
 		}
-
-
 
 		$this->email->set_newline("\r\n");
 		$this->email->from($from);
