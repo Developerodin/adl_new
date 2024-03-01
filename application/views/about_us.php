@@ -39,7 +39,6 @@
         display: none;
         margin-top: 10px;
     }
-
     .card1 {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding: 16px;
@@ -47,8 +46,6 @@
         background-color: #f1f1f1;
         border-radius: 10px;
     }
-
-
     .mobd {
         display: none;
     }
@@ -65,7 +62,6 @@
 </style>
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
-
 <div class=" mob-full">
     <div class="div-block-114">
         <img src="<?php echo base_url(); ?>assets/img/abb.JPG" width="100%" alt="">
@@ -77,18 +73,15 @@
         <div class="row">
             <div class="col-md-6 p-5">
                 <div class="card text-start">
-
                     <div class="card-body">
                         <h4 class="card-title">Value</h4>
                         <p class="card-text mt-3">Integrity, Accuracy, Client-Centric Approach, Continuous Improvement.
                         </p>
                     </div>
                 </div>
-
             </div>
             <div class="col-md-6 p-5">
                 <div class="card text-start">
-
                     <div class="card-body">
                         <h4 class="card-title"> Experiences</h4>
                         <p class="card-text">With a combined experience of over 10 years in the industry, ADLedger
@@ -103,14 +96,11 @@
 </section>
 
 <section class="p-0">
-
     <div class="row">
         <div class="col-md-6 p-5" style="background-color: #9cc4e4;">
             <div class="container">
                 <h2 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-4">Mission</h2>
                 <p>
-
-
                     Providing accurate, timely, and secure accounting solutions tailored to our clients' unique needs.
                 </p>
             </div>
@@ -119,10 +109,8 @@
             <div class="container">
                 <h2 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-4">Vision </h2>
                 <p>
-
                     To be a trusted partner in simplifying and enhancing financial management for businesses of all
                     sizes.
-
                 </p>
             </div>
         </div>
@@ -162,15 +150,12 @@
                         management is committed to carry the team together to achieve tasks efficiently and effectively.
                     </p>
                 </div>
-
-
             </div>
             <div class="col-md-3   text-center card1 m-3">
                 <img src="assets/img/blog/ab2.jpg" alt="" width="100%">
                 <h5 class="text-center mt-4" style="font-weight:600;">Rakesh Sharma
                 </h5>
                 <p class="text-center"> (Director)</p>
-
                 <a style="width: 50px;margin:auto;" id="more1"><img src="assets/img/blog/d-icon.png" alt=""
                         width="40"></a>
                 <div class="cont1 mt-4">
@@ -182,10 +167,7 @@
                         invaluable
                         experience in the field of accounting, Finance, Costing taxation, Auditing Accounting Software
                         Tally, QuickBooks, SAP.</p>
-
                 </div>
-
-
             </div>
             <div class="col-md-3   text-center card1 m-3">
                 <img src="assets/img/blog/ab3.jpg" alt="" width="100%">

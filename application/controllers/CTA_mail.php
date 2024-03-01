@@ -13,9 +13,7 @@ class CTA_mail extends CI_Controller
 
 		// Storing google recaptcha response
 		// in $recaptcha variable
-
 		$this->load->library('email');
-
 		$config['protocol'] = 'smtp';
 		$config['smtp_host'] = 'ssl://smtp.gmail.com';
 		$config['smtp_port'] = '465';
@@ -26,32 +24,21 @@ class CTA_mail extends CI_Controller
 		$config['newline'] = "\r\n";
 		$config['mailtype'] = 'html'; // or html
 		$config['validation'] = TRUE; // bool whether to validate email or not
-
 		$this->email->initialize($config);
-
 		$from = 'theodinjaipur@gmail.com';
-		 $to = 'adledgerservices@gmail.com';
-		
-
+		$to = 'adledgerservices@gmail.com';
 		$subject = 'ADLedger Contact';
 		$message = 'Hello Team, <br /> You have a contact request on ADLedger Portal. <br />';
 		unset($_POST['g-recaptcha-response']);
-
 		foreach ($_POST as $key => $value) {
 			$message = $message . $key . '- ' . $value . '<br>';
 		}
-
 		$this->email->set_newline("\r\n");
 		$this->email->from($from);
 		$this->email->to($to);
 		$this->email->subject($subject);
 		$this->email->message($message);
-
 		$this->email->send();
 		redirect(base_url(''));
-
 	}
-
-	
-
 }
