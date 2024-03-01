@@ -59,7 +59,7 @@
 
         <div class="container-fluid container-xl d-flex align-items-center  row "
             style="max-width: 100%;margin: auto;    justify-content: space-between;">
-            <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center col-md-4 col-6 justify-content-center">
+            <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center col-md-4 col-4 justify-content-center">
                 
                 <img class="ds" src="assets/img/logo.png" style="max-width:250px;" alt=""> 
                 <img class="dds" src="assets/img/logof.png" style="max-width:250px;" alt=""> 
@@ -74,8 +74,7 @@
                     <li class="dropdown"><a href="#">Services <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="<?php echo base_url('Service'); ?>">Finance</a></li>
-                            <li><a href="<?php echo base_url(''); ?>">Investment</a></li>
-                            <li><a href="<?php echo base_url(''); ?>">Development</a></li>
+                          
                         </ul>
                     </li>
                    

@@ -47,7 +47,7 @@
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
     
-      padding: 50px 0;
+  
     }
     .ag-courses_item {
       -ms-flex-preferred-size: calc(33.33333% - 30px);
@@ -142,6 +142,7 @@
     
     @media only screen and (max-width: 979px) {
       .ag-courses_item {
+        margin: 0 1px 20px;
         -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
       }
@@ -163,9 +164,9 @@
       }
       .ag-courses-item_title {
         min-height: 72px;
-        line-height: 1;
+        line-height: auto;
     
-        font-size: 24px;
+        font-size: 16px;
       }
       .ag-courses-item_link {
         padding: 22px 40px;
@@ -183,7 +184,7 @@
     </div>
   </div>
 <section>
-  <div class="container">
+  <div class="container mt-md-0 mt-4">
     <div class="row">
       <div class="col-md-12">
         <h1 class="text-center pb-3" style="font-weight: 700;">Bookkeeping</h1>
@@ -191,7 +192,7 @@
       </div>
       <div class="col-md-12">
         <div class="ag-format-container">
-          <div class="ag-courses_box">
+          <div class="ag-courses_box pt-md-5 pt-2">
             <div class="ag-courses_item">
               <a href="#" class="ag-courses-item_link">
                 <div class="ag-courses-item_bg"></div>
@@ -367,7 +368,7 @@
       <div class="col-md-6 d-flex justify-content-center align-items-center">
         <img src="assets/img/fin2.jpg" alt="" width="100%">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mt-md-0 mt-3">
         <p class="">
           <span class="h5" style="font-weight: 800;">Financial Statements - </span>
           Preparation of financial statements such as balance sheets, income statements, and cash flow statements to provide a snapshot of a company's financial health.
@@ -390,9 +391,9 @@
         </p>
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-md-5">
       
-      <div class="col-md-6">
+      <div class="col-md-6 mt-md-0 mt-3">
         
         <p class="pt-3">
           <span class="h5" style="font-weight: 800;">Financial Analysis - </span>
@@ -416,10 +417,10 @@
         </p>
         
       </div>
-      <div class="col-md-6 d-flex justify-content-center align-items-center">
+      <div class="col-md-6 d-flex justify-content-center align-items-center mt-md-0 mt-3">
         <img src="assets/img/fin1.jpg" alt="" width="100%">
       </div>
-      <div class="col-md-12 mt-4">
+      <div class="col-md-12  mt-md-4 mt-3">
         <p class="pt-3 text-center">
          
           Accounting services companies play a crucial role in helping businesses maintain accurate financial records, navigate complex regulations, and make sound financial decisions. Their services are often tailored to meet the specific needs of individual clients and industries.

@@ -95,13 +95,21 @@
   .def p {
     color: #fff;
   }
+  .mob{
+    display: none;
+  }
 
   @media screen and (max-width: 768px) {
     .text-overlay h1 {
       margin: 0;
       font-size: 3em;
     }
-
+.desk{
+  display: none;
+}
+.mob{
+  display:block !important;
+}
     .text-overlay h3 {
       margin: 0;
       font-size: 1em;
@@ -231,9 +239,19 @@
 </style>
 <section class="p-0">
   <div class="main">
-    <div class="video-section" id="parallax-section">
+    <div class="video-section desk" id="parallax-section">
       <div class="video-overlay" style="position: relative;">
         <img src="assets/img/ban1.jpg" alt="" style="width: 100%;">
+        <div class="text-overlay">
+          <h1>FINANCE</h1>
+          <h3>FINANCE <strong>|</strong> ACCOUNTING <strong>|</strong> DEVELOPMENT</h3>
+        </div>
+      </div>
+
+    </div>
+    <div class="mob" >
+      <div class="video-overlay" style="position: relative;">
+        <img src="assets/img/ban1mob.png" alt="" style="width: 100%;">
         <div class="text-overlay">
           <h1>FINANCE</h1>
           <h3>FINANCE <strong>|</strong> ACCOUNTING <strong>|</strong> DEVELOPMENT</h3>
@@ -281,29 +299,29 @@
     </style>
 
 
-    <div class="row mt-md-5 mt-3 pb-md-5 pb-3  dd">
+    <div class="row mt-md-5 mt-5 pb-md-5 pb-3  dd">
       <div class="col-md-12 mt-md-3">
         <h2 class="text-center" style="width: 100%;">Why Choose ADLedger Outsourcing?</h2>
         <p class="text-center mt-3" style="width: 100%;">ADLedger provides trusted Outsourcing Services for bookkeeping,
           payroll, and tax preparation.</p>
       </div>
-      <div class="col-md-4 p-5">
-        <div class="card p-md-4 p-3">
+      <div class="col-md-4 p-md-5 p-3">
+        <div class="card p-md-4 p-5">
           <img src="" alt="">
           <h6 class="pt-4 bold" style="    font-weight: 600;">DAY-TO-DAY ACCOUNTING ENTRIES IN SOFTWARES</h6>
           <p class="pt-3">Efficient and accurate data entry services using Tally, QB & many more ERP software ensuring
             precise and up-to-date financial records.</p>
         </div>
       </div>
-      <div class="col-md-4 p-5">
-        <div class="card p-md-4 p-3">
+      <div class="col-md-4 p-md-5 p-3">
+        <div class="card p-md-4 p-5">
           <img src="" alt="">
           <h6 class="pt-4 bold" style="    font-weight: 600;">QUICKBOOKS SUPPPORT</h6>
           <p class="pt-3">Specialized assistance in QuickBooks for streamlined financial management and reporting.</p>
         </div>
       </div>
-      <div class="col-md-4 p-5">
-        <div class="card p-md-4 p-3">
+      <div class="col-md-4 p-md-5 p-3">
+        <div class="card p-md-4 p-5">
           <img src="" alt="">
           <h6 class="pt-4 bold" style="    font-weight: 600;">EXCEL ACCOUNTING & REPORTING</h6>
           <p class="pt-3">Tailored Excel solutions for comprehensive and customizable accounting needs.</p>
@@ -318,7 +336,7 @@
 </section>
 <section style="background-color:#9cc4e4;">
   <div class="container">
-    <div class="row text-black">
+    <div class="row text-black pt-4">
       <div class="col-md-5 tc1">
         <h6>+7 Years Of Experience</h6>
         <h3 class="mt-4" style="font-weight: 600;">

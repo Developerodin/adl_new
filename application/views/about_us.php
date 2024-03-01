@@ -71,7 +71,7 @@
 <section style="background-color: #e4f0f6;">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 p-5">
+            <div class="col-md-6 p-md-5 p-3">
                 <div class="card text-start">
                     <div class="card-body">
                         <h4 class="card-title">Value</h4>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 p-5">
+            <div class="col-md-6 p-md-5 p-3">
                 <div class="card text-start">
                     <div class="card-body">
                         <h4 class="card-title"> Experiences</h4>
@@ -120,8 +120,8 @@
 
 <section class="mobd" style="background-color: gainsboro;">
     <div class="container">
-        <div class="row" style="justify-content: space-around;">
-            <div class="col-md-12  pb-md-5 ">
+        <div class="row m-0" style="justify-content: space-around;">
+            <div class="col-md-12  pt-5 ">
                 <h2 class="text-center" style="font-weight: 600;">
                     Leadership and Advisory Board
                 </h2>
