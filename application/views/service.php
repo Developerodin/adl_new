@@ -139,7 +139,6 @@
     }
     
     
-    
     @media only screen and (max-width: 979px) {
       .ag-courses_item {
         margin: 0 1px 20px;
