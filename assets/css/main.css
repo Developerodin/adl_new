@@ -520,7 +520,7 @@ section {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     bottom: 0;
     transition: 0.3s;
     z-index: 9997;
@@ -613,7 +613,7 @@ section {
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    right: 20px;
+    right: 0px;
     top: 20px;
     z-index: 9999;
   }
@@ -3551,7 +3551,7 @@ a:hover {
 
 .footer-copyw {
   color: var(--color-white);
-  font-size: 13px;
+  font-size: 11px;
   line-height: 22.5px;
 }
 

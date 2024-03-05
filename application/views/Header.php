@@ -46,7 +46,18 @@
         display: none;
         max-width: 250px;
     }
+    .mob {
+    display: none;
+  }
 
+  @media screen and (max-width: 768px) {
+    .desk {
+      display: none;
+    }
+    .mob {
+      display: block !important;
+    }
+    }
 </style>
 </head>
 

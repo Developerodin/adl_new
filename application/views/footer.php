@@ -22,7 +22,6 @@
 
     .formPopup {
         background: rgba(0, 0, 0, 0.7);
-
         width: 100%;
         height: 100vh;
         display: none;
@@ -32,7 +31,6 @@
         transform: translate(-50%, 5%);
         border: 3px solid #999999;
         z-index: 4;
-
     }
 
     .formContainer {
@@ -40,8 +38,6 @@
         padding: 20px;
         background-color: #f26522;
     }
-
-
 
     .formContainer input[type=text]:focus,
     .formContainer input[type=password]:focus {
@@ -52,7 +48,6 @@
     .formContainer .btn {
         padding: 12px 20px;
         border: none;
-
         color: #fff;
         cursor: pointer;
         width: 100%;
@@ -61,7 +56,6 @@
     }
 
     .formContainer .cancel {
-
         width: 50px;
     }
 
@@ -85,8 +79,8 @@
                     <div class="form-block w-form" style="width:100%;">
                         <form action="Sub_mail" method="post" class="footer-form d-flex" style="align-items: center;">
 
-                            <input type="email" style="width:60%; border-radius: 3px;" class="text-field w-input" maxlength="256"
-                                name="email" placeholder="Enter your email address" required="" >
+                            <input type="email" style="width:60%; border-radius: 3px;" class="text-field w-input"
+                                maxlength="256" name="email" placeholder="Enter your email address" required="">
 
                             <input type="submit" value="Subscribe" class="sub-send sub-send-btn-trigger"
                                 style="width:30%">
@@ -102,17 +96,16 @@
                         </div>
                     </div>
                 </div>
-               
+
             </div>
 
             <hr>
             <div class="  footer-row-1 row tc" style="    justify-content: space-around;">
-                <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page"
-                        class="w-inline-block w--current">
+                <div class="col-md-3  mb-3 mt-3"><a href="/" aria-current="page" class="w-inline-block w--current">
                         <img src="assets/img/logof.png" alt="" style="width:150px;">
                     </a>
                 </div>
-                <div class=" row col-md-9 mt-3 mb-3">
+                <div class=" row col-md-9 mt-3 mb-md-3 mb-0">
                     <div class="col-lg-4 col-md-6 col-6  mt-2  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Services</div>
@@ -144,28 +137,58 @@
                             <div class="footer-title">Other</div>
                         </div>
                         <div class="col-footer">
-                            <div class="info mt-4 col-md-12 text-white row">
-                                <div class="address row col-md-12 col-6">
+                            <div class="desk">
+                                <div class="info mt-4 col-md-12 text-white row">
+                                    <div class="address row col-md-12 ">
 
-                                    <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                class="bi bi-geo-alt"></i>
-                                            &nbsp;</span></h6>
-                                    <p class="col-md-10 col-12">C-87, Ribhu Path, Bhagirath Marg, Shyam Nagar,Jaipur, Pin
-                                        302019</p>
-                                </div>
-                                <div class="email row col-md-12 col-6">
+                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                    class="bi bi-geo-alt"></i>
+                                                &nbsp;</span></h6>
+                                        <p class="col-md-10 col-12">C-87, Ribhu Path, Bhagirath Marg, Shyam
+                                            Nagar,Jaipur, Pin
+                                            302019</p>
+                                    </div>
 
-                                    <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                class="bi bi-envelope"></i>
-                                            &nbsp;</span></h6>
-                                    <p class="col-md-10 col-12"> adledgerservices@gmail.com
-                                    </p>
+                                    <div class="email row col-md-12 ">
+
+                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                    class="bi bi-envelope"></i>
+                                                &nbsp;</span></h6>
+                                        <p class="col-md-10 col-12 p-0"> adledgerservices@gmail.com
+                                        </p>
+                                    </div>
+                                    <div class="phone row col-md-12 col-6">
+                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                    class="bi bi-phone"></i> &nbsp;</span>
+                                        </h6>
+                                        <p class="col-md-10 col-12 ">+91 141 401 5544, +91 95877 90340</p>
+                                    </div>
                                 </div>
-                                <div class="phone row col-md-12 col-6">
-                                    <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                class="bi bi-phone"></i> &nbsp;</span>
-                                    </h6>
-                                    <p class="col-md-10 col-12">+91 141 401 5544, +91 95877 90340</p>
+                            </div>
+                            <div class="mob">
+                                <div class="info mt-4 col-md-12 text-white row">
+                                    <div class="address row col-md-12 col-5">
+
+                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                    class="bi bi-geo-alt"></i>
+                                                &nbsp;</span></h6>
+                                        <p class="col-md-10 col-12">C-87, Ribhu Path, Bhagirath Marg, Shyam
+                                            Nagar,Jaipur, Pin
+                                            302019</p>
+                                    </div>
+
+                                    <div class="email row col-md-12 col-7">
+
+                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
+                                                    class="bi bi-envelope"></i>
+                                                &nbsp;</span></h6>
+                                        <p class="col-md-10 col-12 p-0"> adledgerservices@gmail.com
+                                        </p>
+
+                                        <p class="col-md-12 col-12 text-white p-0"><span><i class="bi bi-phone"></i>
+                                                &nbsp;</span>+91 141 401 5544,<br> +91 95877 90340</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>

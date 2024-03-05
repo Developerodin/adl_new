@@ -95,7 +95,8 @@
   .def p {
     color: #fff;
   }
-  .mob{
+
+  .mob {
     display: none;
   }
 
@@ -104,12 +105,15 @@
       margin: 0;
       font-size: 3em;
     }
-.desk{
-  display: none;
-}
-.mob{
-  display:block !important;
-}
+
+    .desk {
+      display: none;
+    }
+
+    .mob {
+      display: block !important;
+    }
+
     .text-overlay h3 {
       margin: 0;
       font-size: 1em;
@@ -226,16 +230,20 @@
     display: block;
     max-width: 250px;
   }
-  .navbar a, .navbar a:focus {
-   
+
+  .navbar a,
+  .navbar a:focus {
+
     color: #121212;
-   
-}
- .sticked .navbar a, .sticked .navbar a:focus {
-   
+
+  }
+
+  .sticked .navbar a,
+  .sticked .navbar a:focus {
+
     color: #fff;
-   
-}
+
+  }
 </style>
 <section class="p-0">
   <div class="main">
@@ -249,7 +257,7 @@
       </div>
 
     </div>
-    <div class="mob" >
+    <div class="mob">
       <div class="video-overlay" style="position: relative;">
         <img src="assets/img/ban1mob.png" alt="" style="width: 100%;">
         <div class="text-overlay">
@@ -338,7 +346,7 @@
   <div class="container">
     <div class="row text-black pt-4">
       <div class="col-md-5 tc1">
-        <h6>+7 Years Of Experience</h6>
+        <h6>7+ Years Of Experience</h6>
         <h3 class="mt-4" style="font-weight: 600;">
           ADLedger offers comprehensive services in bookkeeping, payroll, and tax preparation</h3>
         <p class="mt-4">ADLedger is a finance and accounting-focused company, specializing in providing comprehensive
@@ -348,7 +356,7 @@
           clients through our dedicated services.</p>
       </div>
 
-      <div class="col-md-7 row cou text-white" style="    align-items: center;">
+      <div class="col-md-7 row cou text-white m-0" style="    align-items: center;">
         <div class="col-md-4 col-8">
           <div class="count">
             <h2>7+</h2>
