@@ -49,7 +49,9 @@
     .mob {
     display: none;
   }
-
+  ul, ol {
+      list-style-type: none;
+    }
   @media screen and (max-width: 768px) {
     .desk {
       display: none;

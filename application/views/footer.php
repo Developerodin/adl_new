@@ -137,9 +137,9 @@
                             <div class="footer-title">Other</div>
                         </div>
                         <div class="col-footer">
-                            <div class="desk">
+                    
                                 <div class="info mt-4 col-md-12 text-white row">
-                                    <div class="address row col-md-12 ">
+                                    <div class="address row col-md-12 m-0">
 
                                         <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                     class="bi bi-geo-alt"></i>
@@ -149,7 +149,7 @@
                                             302019</p>
                                     </div>
 
-                                    <div class="email row col-md-12 ">
+                                    <div class="email row col-md-12 m-0 pt-md-0 pt-2">
 
                                         <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                     class="bi bi-envelope"></i>
@@ -157,40 +157,15 @@
                                         <p class="col-md-10 col-12 p-0"> adledgerservices@gmail.com
                                         </p>
                                     </div>
-                                    <div class="phone row col-md-12 col-6">
+                                    <div class="phone row col-md-12 col-12 m-0 pt-md-0 pt-2">
                                         <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                     class="bi bi-phone"></i> &nbsp;</span>
                                         </h6>
-                                        <p class="col-md-10 col-12 ">+91 141 401 5544, +91 95877 90340</p>
+                                        <p class="col-md-10 col-12 " style="color:white;">+91 141 401 5544, +91 95877 90340</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="mob">
-                                <div class="info mt-4 col-md-12 text-white row">
-                                    <div class="address row col-md-12 col-5">
-
-                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                    class="bi bi-geo-alt"></i>
-                                                &nbsp;</span></h6>
-                                        <p class="col-md-10 col-12">C-87, Ribhu Path, Bhagirath Marg, Shyam
-                                            Nagar,Jaipur, Pin
-                                            302019</p>
-                                    </div>
-
-                                    <div class="email row col-md-12 col-7">
-
-                                        <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
-                                                    class="bi bi-envelope"></i>
-                                                &nbsp;</span></h6>
-                                        <p class="col-md-10 col-12 p-0"> adledgerservices@gmail.com
-                                        </p>
-
-                                        <p class="col-md-12 col-12 text-white p-0"><span><i class="bi bi-phone"></i>
-                                                &nbsp;</span>+91 141 401 5544,<br> +91 95877 90340</p>
-                                    </div>
-
-                                </div>
-                            </div>
+                        
+                        
                         </div>
                     </div>
                 </div>
