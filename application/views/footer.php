@@ -164,8 +164,7 @@
                                         <p class="col-md-10 col-12 " style="color:white;">+91 141 401 5544, +91 95877 90340</p>
                                     </div>
                                 </div>
-                        
-                        
+                                
                         </div>
                     </div>
                 </div>
