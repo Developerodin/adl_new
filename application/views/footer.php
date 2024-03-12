@@ -161,7 +161,8 @@
                                         <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                     class="bi bi-phone"></i> &nbsp;</span>
                                         </h6>
-                                        <p class="col-md-10 col-12 " style="color:white;">+91 141 401 5544, +91 95877 90340</p>
+                                        <p class="col-md-10 col-12 " style="color:#fff !important;">
+                                            <a href=""style="color:#fff !important;">+91 141 401 5544,</a><br> <a href=""style="color:#fff !important;">+91 95877 90340</a></p>
                                     </div>
                                 </div>
                                 

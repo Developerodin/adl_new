@@ -252,17 +252,17 @@
         <img src="assets/img/ban1.jpg" alt="" style="width: 100%;">
         <div class="text-overlay">
           <h1>FINANCE</h1>
-          <h3>FINANCE <strong>|</strong> ACCOUNTING <strong>|</strong> DEVELOPMENT</h3>
+          <h3>PRECISION <strong>|</strong> ANALYSIS <strong>|</strong> GROWTH</h3>
         </div>
       </div>
-
+      
     </div>
     <div class="mob">
       <div class="video-overlay" style="position: relative;">
         <img src="assets/img/ban1mob.png" alt="" style="width: 100%;">
-        <div class="text-overlay">
+        <div class="text-overlay" style="WIDTH: 100%;">
           <h1>FINANCE</h1>
-          <h3>FINANCE <strong>|</strong> ACCOUNTING <strong>|</strong> DEVELOPMENT</h3>
+          <h5>PRECISION <strong>|</strong> ANALYSIS <strong>|</strong> GROWTH</h5>
         </div>
       </div>
 
@@ -271,9 +271,9 @@
       <div class="bg-black1">
         <div class="container">
           <h2>WHAT DEFINES US</h2>
-          <div class="un mt-5"></div>
+          <div class="un mt-md-5 mt-0"></div>
           <h3><em>What defines us is not what we do, but how we do it.</em></h3>
-          <p class="mt-5">
+          <p class="mt-md-5 mt-3">
             ADLedger is dedicated to fostering growth and innovation at every level. Our mission is to create a
             collaborative work environment that promotes personal and professional development for both our clients and
             team members.

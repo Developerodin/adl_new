@@ -28,6 +28,11 @@
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
   }
+ 
+ .review-box{
+   
+    display: none !important;
+}
 </style>
 
 
@@ -75,7 +80,7 @@
             </div>
 
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 mmmp">
 
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.39231448505194!2d75.76281325891615!3d26.894701708964003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5e5b225b16d%3A0xf542239c61b2aba!2sADLedger%20Services!5e0!3m2!1sen!2sin!4v1707903126806!5m2!1sen!2sin"
