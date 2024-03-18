@@ -144,7 +144,7 @@
                                                     class="bi bi-geo-alt"></i>
                                                 &nbsp;</span></h6>
                                         <p class="col-md-10 col-12 p-0">C-87, Ribhu Path, Bhagirath Marg, Shyam
-                                            Nagar,Jaipur, Pin
+                                            Nagar, Jaipur, Pin
                                             302019</p>
                                     </div>
 

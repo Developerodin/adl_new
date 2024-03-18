@@ -10,7 +10,12 @@
     background-color: transparent;
     position: absolute;
   }
-
+.mobile-nav-toggle{
+color: #000;
+}
+.sticked .mobile-nav-toggle{
+  color: #fff !important;
+  }
   .video-section {
     position: relative;
     height: 100vh;
