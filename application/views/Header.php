@@ -46,7 +46,9 @@
         display: none;
         max-width: 250px;
     }
-
+    ul, ol {
+    list-style-type: none;
+}
 </style>
 </head>
 

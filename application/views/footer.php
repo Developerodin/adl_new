@@ -174,7 +174,7 @@
                 <div class="footer-copyw tc">
                     © <span class="current-year">2024</span>. All Rights Reserved &nbsp; &nbsp;・ &nbsp; &nbsp;
                     <span class="_445254">ADLedger</span>
-                    &nbsp; | &nbsp; <a href="#" class="_445254">Privacy Policy</a>
+                
                 </div>
             </div>
         </div>

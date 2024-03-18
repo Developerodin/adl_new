@@ -33,6 +33,9 @@
    
     display: none !important;
 }
+::marker {
+    display: none !important;
+}
 </style>
 
 

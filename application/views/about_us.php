@@ -64,7 +64,7 @@
 
 <div class=" mob-full">
     <div class="div-block-114">
-        <img src="<?php echo base_url(); ?>assets/img/abb.JPG" width="100%" alt="">
+        <img src="<?php echo base_url(); ?>assets/img/abb.jpg" width="100%" alt="">
     </div>
 </div>
 
@@ -135,13 +135,13 @@
                 <a style="width: 50px;margin:auto;" id="more"><img src="assets/img/blog/d-icon.png" alt=""
                         width="40"></a>
                 <div class="cont mt-4">
-                    <p>Col R S Samar, a seasoned executive with 31 years of experience in the Indian Army's Corps of
+                    <p class="text-start">Col R S Samar, a seasoned executive with 31 years of experience in the Indian Army's Corps of
                         Signals. As the CEO, Col RS Samar brings a wealth of expertise in management, operations, and
                         facility infrastructure. Supported by experienced Directors Rakesh Sharma and Rohit Pareek, the
                         team
                         is enthusiastic, friendly, and self-motivated, fostering an open-minded and energetic approach.
                     </p>
-                    <p> Col RS Samar's diverse and rich experience spans administration, human resource management,
+                    <p class="text-start"> Col RS Samar's diverse and rich experience spans administration, human resource management,
                         successful execution of technical and administrative tasks, and efficient logistics planning.
                         His
                         academic qualifications include a graduate degree in science, specializing in microwave
@@ -159,7 +159,7 @@
                 <a style="width: 50px;margin:auto;" id="more1"><img src="assets/img/blog/d-icon.png" alt=""
                         width="40"></a>
                 <div class="cont1 mt-4">
-                    <p>I am Rakesh Sharma, a dedicated professional with a strong educational background, holding a
+                    <p class="text-start">I am Rakesh Sharma, a dedicated professional with a strong educational background, holding a
                         B.Com.
                         and CA Inter (Completed 3-year CA Article ship training in V.P. Mehta & Co Mumbai)
 
@@ -178,7 +178,7 @@
                 <a style="width: 50px;margin:auto;" id="more2"><img src="assets/img/blog/d-icon.png" alt=""
                         width="40"></a>
                 <div class="cont2 mt-4">
-                    <p>I'm Rohit Pareek, Director at Adledger Services Pvt Ltd. With a B.Com. and LL.B. background, I
+                    <p class="text-start">I'm Rohit Pareek, Director at Adledger Services Pvt Ltd. With a B.Com. and LL.B. background, I
                         bring
                         over 10 years of accounting expertise. Proficient in day-to-day tasks, inventory management, and
                         client relations, I excel in Tally, QuickBooks, Advanced Excel, and iDiamond Cloud. My forte
@@ -186,7 +186,7 @@
                         crafting insightful management reports, efficient AR & AP management, and meticulous final
                         accounts
                         preparation.</p>
-                    <p>Specializing in budgeting, forecasting, and audit compliance, I foster team collaboration and
+                    <p class="text-start"> Specializing in budgeting, forecasting, and audit compliance, I foster team collaboration and
                         provide
                         leadership for common goals. Committed to excellence, my decade-long journey in accounting
                         reflects
@@ -222,7 +222,7 @@
 
 
 
-                        <p>Col R S Samar, a seasoned executive with 31 years of experience in the Indian Army's Corps of
+                        <p class="text-start">Col R S Samar, a seasoned executive with 31 years of experience in the Indian Army's Corps of
                             Signals. As the CEO, Col RS Samar brings a wealth of expertise in management, operations,
                             and
                             facility infrastructure. Supported by experienced Directors Rakesh Sharma and Rohit Pareek,
@@ -231,7 +231,7 @@
                             is enthusiastic, friendly, and self-motivated, fostering an open-minded and energetic
                             approach.
                         </p>
-                        <p> Col RS Samar's diverse and rich experience spans administration, human resource management,
+                        <p class="text-start"> Col RS Samar's diverse and rich experience spans administration, human resource management,
                             successful execution of technical and administrative tasks, and efficient logistics
                             planning.
                             His
@@ -257,7 +257,7 @@
                         <p class="text-center"> (Director)</p>
 
 
-                        <p>I am Rakesh Sharma, a dedicated professional with a strong educational background, holding a
+                        <p class="text-start">I am Rakesh Sharma, a dedicated professional with a strong educational background, holding a
                             B.Com.
                             and CA Inter (Completed 3-year CA Article ship training in V.P. Mehta & Co Mumbai)
 
@@ -286,7 +286,7 @@
 
 
 
-                    <p>I'm Rohit Pareek, Director at Adledger Services Pvt Ltd. With a B.Com. and LL.B. background, I
+                    <p class="text-start">I'm Rohit Pareek, Director at Adledger Services Pvt Ltd. With a B.Com. and LL.B. background, I
                         bring
                         over 10 years of accounting expertise. Proficient in day-to-day tasks, inventory management, and
                         client relations, I excel in Tally, QuickBooks, Advanced Excel, and iDiamond Cloud. My forte
@@ -294,7 +294,7 @@
                         crafting insightful management reports, efficient AR & AP management, and meticulous final
                         accounts
                         preparation.</p>
-                    <p>Specializing in budgeting, forecasting, and audit compliance, I foster team collaboration and
+                    <p class="text-start">Specializing in budgeting, forecasting, and audit compliance, I foster team collaboration and
                         provide
                         leadership for common goals. Committed to excellence, my decade-long journey in accounting
                         reflects
