@@ -166,7 +166,7 @@
             <div class="entry-content p-4">
 
                 <h1 style="color: #09445a; margin-bottom: 10px;    font-weight: 700;">
-                    Understaing The Crucial Differebces Between Bookkeeping And Accounting<br>
+                    Understanding The Crucial Differences Between Bookkeeping And Accounting<br>
 
                 </h1>
                 <p>Short Analysis
@@ -180,7 +180,7 @@
                     <div class="col-md-8 mt-md-4 mt-3">
                         <div class="post-content">
                             <h4 class="pb-md-4 pb-2" style="color: #09445a; margin-bottom: 10px;    font-weight: 700;">
-                                Understaing The Crucial Differebces Between Bookkeeping And Accounting</h4>
+                                Understanding The Crucial Differences Between Bookkeeping And Accounting</h4>
                             <div>
                                 <h5 class="pb-1" style="font-weight: 600;">Bookkeeping: The Foundation of Financial
                                     Records</h5>
