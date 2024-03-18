@@ -111,11 +111,10 @@
                             <div class="footer-title">Services</div>
                         </div>
                         <div class="col-footer">
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-25">Finance</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Accounting</a>
+                           
+                            <a href="<?php echo base_url('Accounting'); ?>" class="footer-links mt-16">Accounting</a>
 
-                            <a href="<?php echo base_url('Fleet_Operators'); ?>"
-                                class="footer-links mt-16 hide">Development</a>
+                           
 
 
                         </div>
@@ -132,7 +131,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-12 col-12 mt-3  tc">
+                    <div class="col-lg-5 col-md-12 col-12 mt-2  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Other</div>
                         </div>
@@ -144,7 +143,7 @@
                                         <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                     class="bi bi-geo-alt"></i>
                                                 &nbsp;</span></h6>
-                                        <p class="col-md-10 col-12">C-87, Ribhu Path, Bhagirath Marg, Shyam
+                                        <p class="col-md-10 col-12 p-0">C-87, Ribhu Path, Bhagirath Marg, Shyam
                                             Nagar,Jaipur, Pin
                                             302019</p>
                                     </div>
@@ -161,7 +160,7 @@
                                         <h6 class="col-md-2 col-12" style="font-weight: 700;"><span><i
                                                     class="bi bi-phone"></i> &nbsp;</span>
                                         </h6>
-                                        <p class="col-md-10 col-12 " style="color:#fff !important;">
+                                        <p class="col-md-10 col-12 p-0" style="color:#fff !important;">
                                             <a href=""style="color:#fff !important;">+91 141 401 5544,</a><br> <a href=""style="color:#fff !important;">+91 95877 90340</a></p>
                                     </div>
                                 </div>

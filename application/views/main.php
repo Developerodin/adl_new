@@ -251,7 +251,7 @@
       <div class="video-overlay" style="position: relative;">
         <img src="assets/img/ban1.jpg" alt="" style="width: 100%;">
         <div class="text-overlay">
-          <h1>FINANCE</h1>
+          <h1>ACCOUNTING</h1>
           <h3>PRECISION <strong>|</strong> ANALYSIS <strong>|</strong> GROWTH</h3>
         </div>
       </div>
@@ -261,8 +261,8 @@
       <div class="video-overlay" style="position: relative;">
         <img src="assets/img/ban1mob.png" alt="" style="width: 100%;">
         <div class="text-overlay" style="WIDTH: 100%;">
-          <h1>FINANCE</h1>
-          <h5>PRECISION <strong>|</strong> ANALYSIS <strong>|</strong> GROWTH</h5>
+          <h1>ACCOUNTING</h1>
+          <h3>PRECISION <strong>|</strong> ANALYSIS <strong>|</strong> GROWTH</h3>
         </div>
       </div>
 
