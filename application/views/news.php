@@ -73,9 +73,9 @@
                         </div>
                     </div>
                     <div class="col-md-4 mt-md-4 mt-3" style="    background: #9cc4e4;">
-                        <br>
-                        <div style="padding: 20px;">
-                            <h6 style="    font-size: larger;line-height: inherit;">At ADLedger Services Pvt. Ltd., we
+                      
+                        <div style="padding:10px 20px 0;">
+                            <h6 style="    font-size: 18px;line-height: inherit;">At ADLedger Services Pvt. Ltd., we
                                 understand that ethics isn't just a buzzword; it's
                                 the very foundation upon which the accounting profession stands. In an era where
                                 transparency and accountability are paramount, maintaining the highest standards of
@@ -124,8 +124,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 mt-5">
-                        <h4 class="pb-2 text-start" style="font-weight: 600;">Our Commitment to Ethical Excellence</h4>
+                    <div class="col-md-12 mt-4">
+                        <h5 class="pb-2 text-start" style="font-weight: 600;">Our Commitment to Ethical Excellence</h5>
                         <p class="text-start">At ADLedger Services Pvt. Ltd., we are committed to upholding the highest
                             standards of ethics in all aspects of our work. Our team of experienced professionals
                             adheres strictly to the principles of integrity, objectivity, confidentiality, professional
@@ -137,8 +137,8 @@
                             industry best practices.
                         </p>
                     </div>
-                    <div class="col-md-12 mt-5">
-                        <h4 class="pb-2 text-start" style="font-weight: 600;">Conclusion</h4>
+                    <div class="col-md-12 mt-4">
+                        <h5 class="pb-2 text-start" style="font-weight: 600;">Conclusion</h5>
                         <p class="text-start">Ethical accounting practices are not just a moral imperative; they are
                             essential for the sustainability and credibility of the accounting profession. At ADLedger
                             Services Pvt. Ltd., we pride ourselves on our unwavering commitment to ethics and integrity,
@@ -166,7 +166,7 @@
             <div class="entry-content p-4">
 
                 <h1 style="color: #09445a; margin-bottom: 10px;    font-weight: 700;">
-                    UNDERSTANDING THE CRUCIAL DIFFERENCES BETWEEN BOOKKEEPING AND ACCOUNTING<br>
+                    Understaing The Crucial Differebces Between Bookkeeping And Accounting<br>
 
                 </h1>
                 <p>Short Analysis
@@ -180,7 +180,7 @@
                     <div class="col-md-8 mt-md-4 mt-3">
                         <div class="post-content">
                             <h4 class="pb-md-4 pb-2" style="color: #09445a; margin-bottom: 10px;    font-weight: 700;">
-                                UNDERSTANDING THE CRUCIAL DIFFERENCES BETWEEN BOOKKEEPING AND ACCOUNTING</h4>
+                                Understaing The Crucial Differebces Between Bookkeeping And Accounting</h4>
                             <div>
                                 <h5 class="pb-1" style="font-weight: 600;">Bookkeeping: The Foundation of Financial
                                     Records</h5>
@@ -211,8 +211,8 @@
                     </div>
                     <div class="col-md-4 mt-md-4 mt-3" style="    background: #9cc4e4;">
                         <br>
-                        <div style="padding: 20px;">
-                            <h6 style="    font-size: larger;line-height: inherit;">In the realm of finance, bookkeeping
+                        <div style="padding: 10px 20px 10px;">
+                            <h6 style="    font-size: 18px;line-height: inherit;">In the realm of finance, bookkeeping
                                 and accounting stand as fundamental pillars upon which businesses build their financial
                                 integrity. While often used interchangeably, these two disciplines play distinct roles
                                 in ensuring the smooth functioning and accurate representation of a company's financial
@@ -225,8 +225,8 @@
                         </div>
                     </div>
                     <div class="col-md-12 mt-5">
-                        <h4 class="pb-2 text-start" style="font-weight: 600;">Accounting: Interpreting and Analysing
-                            Financial Data</h4>
+                        <h5 class="pb-2 text-start" style="font-weight: 600;">Accounting: Interpreting and Analysing
+                            Financial Data</h5>
                         <p class="text-start">While bookkeeping focuses on recording transactions, accounting involves
                             interpreting, analysing and summarizing financial data to provide insights into a company's
                             financial performance and position. Accountants utilize the information recorded by
@@ -234,7 +234,7 @@
                             requirements.</p>
 
                     </div>
-                    <div class="col-md-12 row mt-5">
+                    <div class="col-md-12 row mt-4">
                         <h5 class="pb-0" style="font-weight: 600;">Key Responsibilities of Accounting Include:</h5>
 
                         <div class="col-md-6">
@@ -245,7 +245,7 @@
                                     identifying trends, patterns and areas for improvement.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-3">
+                        <div class="col-md-6 ">
                             <div class="mt-2">
 
                                 <p><span style="font-weight: 700;">• Budgeting and forecasting: </span> They help in
@@ -253,7 +253,7 @@
                                     projections, aiding in strategic planning and resource allocation.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-3">
+                        <div class="col-md-6">
                             <div class="mt-2">
 
                                 <p><span style="font-weight: 700;">• Tax planning and compliance: </span> Accountants
@@ -261,7 +261,7 @@
                                     planning strategies to minimize tax liabilities while maximizing savings.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-3">
+                        <div class="col-md-6 ">
                             <div class="mt-2">
 
                                 <p><span style="font-weight: 700;">• Financial reporting: </span> Accountants prepare
@@ -270,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 row mt-5">
+                    <div class="col-md-12 row mt-4">
                         <h5 class="pb-1" style="font-weight: 600;">Key Differences Between Bookkeeping and Accounting:
                         </h5>
 
@@ -282,7 +282,7 @@
                                     financial data to provide insights and support decision-making.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-3">
+                        <div class="col-md-6 ">
                             <div class="mt-2">
 
                                 <p><span style="font-weight: 700;">• Level of Analysis:</span> Bookkeeping deals with
@@ -290,7 +290,7 @@
                                     interpretation of financial information.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-3">
+                        <div class="col-md-6 ">
                             <div class="mt-2">
 
                                 <p><span style="font-weight: 700;">• Timing: </span> Bookkeeping records transactions as
@@ -298,7 +298,7 @@
                                     such as quarterly or annually.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-3">
+                        <div class="col-md-6">
                             <div class="mt-2">
 
                                 <p><span style="font-weight: 700;">• Skills Required: </span>Bookkeeping requires strong
@@ -308,8 +308,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 mt-5">
-                        <h4 class="pb-2 text-start" style="font-weight: 600;">Conclusion:</h4>
+                    <div class="col-md-12 mt-4">
+                        <h5 class="pb-2 text-start" style="font-weight: 600;">Conclusion:</h5>
                         <p class="text-start">In summary, bookkeeping and accounting are integral components of
                             effective financial management, each serving distinct yet complementary roles within an
                             organization. While bookkeeping lays the groundwork by recording transactions accurately and
