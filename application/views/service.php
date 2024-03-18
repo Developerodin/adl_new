@@ -179,7 +179,7 @@
   <div class="mainimg" style="position: relative;background:black;">
     <img src="assets/img/fin.jpg" alt="" width="100%" style="    opacity: 0.4;">
     <div class="over" style="position: absolute;  top: 50%;left: 50%; transform: translate(-50%, -50%)">
-      <h1 class="h0 mt-30 mt-4"> <span class="orange text-white">Finance</span></h1>
+      <h1 class="h0 mt-30 mt-4"> <span class="orange text-white">Accounting</span></h1>
     </div>
   </div>
 <section>
