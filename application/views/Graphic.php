@@ -195,10 +195,13 @@
                 <h1 class="pt-3 pl-3">Job Description</h1>
                 <p style="margin-top:10px;">
 
-                
-Hello Prospective Candidate,
 
-We are currently seeking individuals with both seasoned expertise and fresh perspectives in the realm of accounting. We are on the lookout for skilled professionals in various roles, including accountants, financial analysts, and auditors. If you possess a strong background in accounting and are eager to contribute your talents to our team, we welcome your application.
+                    Hello Prospective Candidate,
+
+                    We are currently seeking individuals with both seasoned expertise and fresh perspectives in the
+                    realm of accounting. We are on the lookout for skilled professionals in various roles, including
+                    accountants, financial analysts, and auditors. If you possess a strong background in accounting and
+                    are eager to contribute your talents to our team, we welcome your application.
                 </p>
                 <h5>Accountants</h5>
                 <p class="m-0">
@@ -219,7 +222,7 @@ We are currently seeking individuals with both seasoned expertise and fresh pers
                     </p>
                     <p>
                         <span style="font-weight:700;">Department -</span>
-                        Design
+                        Accountants
                     </p>
                     <p>
                         <span style="font-weight:700;">Skills -</span> Analytical, Attention to Detail,Organizational
@@ -238,7 +241,7 @@ We are currently seeking individuals with both seasoned expertise and fresh pers
     </div>
     <div class="hero-section ehite wf-section ">
         <div class="testbox container job_bg">
-            <form action="Job_form" method="post" class="formbg">
+            <form action="Job_form" method="post" class="formbg"enctype="multipart/form-data">
                 <div>
                     <h4>Apply for this Job</h4>
                 </div>
@@ -285,7 +288,7 @@ We are currently seeking individuals with both seasoned expertise and fresh pers
                     <div class="row " style="justify-content: space-around;">
                         <div class="col-md-11 mt-3">
                             <h6>Resume<span class="star">*</span></h6>
-                            <input type="file" name="attachment" id="fileToUpload" required>
+                            <input type="file" name="img"  required>
 
                         </div>
 
@@ -296,20 +299,9 @@ We are currently seeking individuals with both seasoned expertise and fresh pers
                         <div class="btn-block">
                             <button type="submit" value="submit">Submit</button>
                         </div>
-
-
-
                     </div>
 
                 </div>
-
-
-
-
-
-
-
-
 
             </form>
         </div>
