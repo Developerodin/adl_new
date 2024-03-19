@@ -126,7 +126,7 @@
                         <div class="col-footer">
                             <a href="<?php echo base_url('About_Us'); ?>" class="footer-links mt-25">About Us</a>
                             <a href="<?php echo base_url('Career'); ?>" class="footer-links mt-16">Career</a>
-                            <a href="<?php echo base_url('News'); ?>" class="footer-links mt-16">Articles & News</a>
+                            <a href="<?php echo base_url('Articles_and_News'); ?>" class="footer-links mt-16">Articles & News</a>
                             <a href="<?php echo base_url('Contact1'); ?>" class="footer-links mt-16">Contact</a>
 
                         </div>
@@ -144,8 +144,7 @@
                                                     class="bi bi-geo-alt"></i>
                                                 &nbsp;</span></h6>
                                         <p class="col-md-10 col-12 p-0">C-87, Ribhu Path, Bhagirath Marg, Shyam
-                                            Nagar, Jaipur, Pin
-                                            302019</p>
+                                            Nagar, Jaipur, (Raj.) - 302019</p>
                                     </div>
 
                                     <div class="email row col-md-12 m-0 pt-md-0 pt-2">

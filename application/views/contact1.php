@@ -36,6 +36,13 @@
 ::marker {
     display: none !important;
 }
+@media (max-width: 767px) {
+       
+.mtt{
+font-size: 16px;
+}
+        
+    }
 </style>
 
 
@@ -45,7 +52,7 @@
   <div class="mainimg" style="position: relative;background:black;">
     <img src="assets/img/contact.jpg" alt="" width="100%" style="    opacity: 0.4;">
     <div class="over" style="position: absolute;  top: 50%;left: 50%; transform: translate(-50%, -50%)">
-      <h1 class="h0 mt-30 mt-4"> <span class="orange text-white">Contact Us</span></h1>
+      <h1 class="h0 mt-30 mt-4 mtt"> <span class="orange text-white">Contact Us</span></h1>
     </div>
   </div>
   <!-- ======= Contact Section ======= -->
@@ -63,7 +70,7 @@
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i>
                   &nbsp;</span>Location:</h6>
-              <p class="col-md-8 col-8">C-87, Ribhu Path, Bhagirath Marg, Shyam Nagar,Jaipur, Pin 302019</p>
+              <p class="col-md-8 col-8">C-87, Ribhu Path, Bhagirath Marg, Shyam Nagar,Jaipur, (Raj.) - 302019</p>
             </div>
 
             <div class="email row">

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class BUSINESS extends CI_Controller {
+class Articles_and_News extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class BUSINESS extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$this->load->view('Header');
-		$this->load->view('Graphic');
+		$this->load->view('news');
 		$this->load->view('footer');
 	}
 	 

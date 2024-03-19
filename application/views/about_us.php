@@ -58,15 +58,19 @@
         .mobd {
             display: block;
         }
+        .mtt{
+font-size: 16px;
+}
     }
 </style>
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
-<div class=" mob-full">
-    <div class="div-block-114">
-        <img src="<?php echo base_url(); ?>assets/img/abb.jpg" width="100%" alt="">
+<div class="mainimg" style="position: relative;background:black;">
+    <img src="<?php echo base_url(); ?>assets/img/abb.jpg" alt="" width="100%" style="    opacity: 0.4;">
+    <div class="over" style="position: absolute;  top: 50%;left: 50%; transform: translate(-50%, -50%)">
+      <h1 class="h0 mt-30 mt-4 mtt"> <span class="orange text-white">About Us</span></h1>
     </div>
-</div>
+  </div>
 
 <section style="background-color: #e4f0f6;">
     <div class="container">

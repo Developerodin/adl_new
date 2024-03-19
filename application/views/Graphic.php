@@ -203,7 +203,7 @@
                     accountants, financial analysts, and auditors. If you possess a strong background in accounting and
                     are eager to contribute your talents to our team, we welcome your application.
                 </p>
-                <h5>Accountants</h5>
+                <h5>Accountant</h5>
                 <p class="m-0">
                     Selected candidate’s day-to-day responsibilities include:<br>
 
@@ -217,23 +217,23 @@
                         2+ years
                     </p>
                     <p>
-                        <span style="font-weight:700;">No. of Position –
-                        </span>5
+                        <span style="font-weight:700;">No. of Position(s) –
+                        </span>3
                     </p>
                     <p>
                         <span style="font-weight:700;">Department -</span>
-                        Accountants
+                        Accounts
                     </p>
                     <p>
-                        <span style="font-weight:700;">Skills -</span> Analytical, Attention to Detail,Organizational
+                        <span style="font-weight:700;">Skills -</span> Analytical, Attention to Detail, Organizational
                     </p>
                     <p>
                         <span style="font-weight:700;">Salary –</span>
                         As per market standard
                     </p>
                 </div>
-                <button onclick="myFunction()" class="zoom"
-                    style="color:#f26522;font-size: 20px;background: none;border: none;" id="myBtn">Show more
+                <button onclick="myFunction()" class="mt-3"
+                    style="color:#fff;font-size: 16px;" id="myBtn">Show more
 
                 </button>
             </div>
@@ -248,41 +248,41 @@
                 <hr>
                 <div class="container">
 
-                    <div class="row " style="justify-content: space-around;">
+                    <div class="row mt-4" style="justify-content: space-around;">
                         <div class="col-md-5 mt-3">
-                            <h6>Name<span class="star">*</span></h6>
-                            <input class="name" type="text" name="name" required placeholder="First" />
+                            <h6>First Name<span class="star">*</span></h6>
+                            <input class="name" type="text" name="name" required placeholder="First name" />
                         </div>
                         <div class="col-md-5 mt-3">
-                            <h6>Last<span class="star">*</span></h6>
-                            <input class="name" type="text" name="name" requiredplaceholder="Last" />
+                            <h6>Last Name<span class="star">*</span></h6>
+                            <input class="name" type="text" name="name" required placeholder="Last name" />
                         </div>
                     </div>
                     <div class="row " style="justify-content: space-around;">
                         <div class="col-md-5 mt-3">
                             <h6>Email<span class="star">*</span></h6>
-                            <input class="email" type="email" name="email" requiredplaceholder="email" />
+                            <input class="email" type="email" name="email" required placeholder="Email" />
 
                         </div>
                         <div class="col-md-5 mt-3">
                             <h6>Contact Number<span class="star">*</span></h6>
-                            <input type="tel" name="number" required />
+                            <input type="tel" name="number" required placeholder="Phone number"/>
                         </div>
                     </div>
                     <div class="row " style="justify-content: space-around;">
                         <div class="col-md-5 mt-3">
                             <h6>Are you age 18 or older?<span class="star">*</span></h6>
-                            <select name="age" required>
-                                <option value="title" selected>Age</option>
-                                <option value="Yes">Yes</option>
-                                <option value="No">No</option>
+                            <select name="age" required style="color: #000;">
+                                <option value="title" selected style="color: #000;"> &nbsp;&nbsp;Age</option>
+                                <option value="Yes"> Yes</option>
+                                <option value="No"> No</option>
 
                             </select>
 
                         </div>
                         <div class="col-md-5 mt-3">
                             <h6>Where are you currently based?<span class="star">*</span></h6>
-                            <input type="text" name="location" required />
+                            <input type="text" name="location" required placeholder="City"/>
                         </div>
                     </div>
                     <div class="row " style="justify-content: space-around;">
@@ -300,32 +300,13 @@
                             <button type="submit" value="submit">Submit</button>
                         </div>
                     </div>
-
+<br><br>
                 </div>
 
             </form>
         </div>
     </div>
-    <div class="section-3 wf-section">
-        <div>
-            <div class="container ready_bg">
-                <div class="row justify-content-between items-center">
-                    <div class="col-md-7">
-                        <h2 class="aside-title">
-                            Join the ChargeSol
-                            <span class="teal">Revolution</span>: Powering the future of Electric Mobility
-                        </h2>
-                        <p class="aside-p">
-                            Gain a competitive advantage by joining the world’s largest
-                            eRoaming network.
-                        </p>
-                        <a href="<?php echo base_url('Contact'); ?>" data-w-id="c17c272e-a5d2-ba46-c5b9-42170fb868df"
-                            class="aside-btn button w-button">Get Started Today</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 </section>
 <script>
     function myFunction() {
