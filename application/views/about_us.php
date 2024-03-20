@@ -93,7 +93,6 @@ font-size: 16px;
                             processes and maintaining robust accounting systems</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -119,7 +118,7 @@ font-size: 16px;
             </div>
         </div>
     </div>
-    </div>
+   
 </section>
 
 <section class="mobd" style="background-color: gainsboro;">
