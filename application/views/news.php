@@ -18,14 +18,16 @@
     .splide__slide {
         margin: 1px 20px;
     }
+
     @media (max-width: 767px) {
         .neww .mt-2 {
             text-align: start;
         }
-.mtt{
-font-size: 16px;
-}
-        
+
+        .mtt {
+            font-size: 16px;
+        }
+
     }
 </style>
 <div class="mainimg" style="position: relative;background:black;">
@@ -74,8 +76,9 @@ font-size: 16px;
 
                         </div>
                     </div>
-                    <div class="col-md-4 mt-md-4 mt-3" style=" background: #9cc4e4;justify-content: center;display: flex;align-items: center;">
-                      
+                    <div class="col-md-4 mt-md-4 mt-3"
+                        style=" background: #9cc4e4;justify-content: center;display: flex;align-items: center;">
+
                         <div style="padding:10px 20px 0;">
                             <h6 style="    font-size: 18px;line-height: inherit;">At ADLedger Services Pvt. Ltd., we
                                 understand that ethics isn't just a buzzword; it's
@@ -211,7 +214,8 @@ font-size: 16px;
 
                         </div>
                     </div>
-                    <div class="col-md-4 mt-md-4 mt-3" style="background: #9cc4e4;justify-content: center;display: flex;align-items: center;">
+                    <div class="col-md-4 mt-md-4 mt-3"
+                        style="background: #9cc4e4;justify-content: center;display: flex;align-items: center;">
                         <br>
                         <div style="padding: 10px 20px 10px;">
                             <h6 style="    font-size: 18px;line-height: inherit;">In the realm of finance, bookkeeping
